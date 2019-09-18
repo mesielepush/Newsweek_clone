@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 body {
-    overflow-x: hidden;
+    
     font-family: 'Lato', sans-serif;
     color: #505962;
 }
@@ -9,7 +9,7 @@ body {
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 body {
-  overflow: hidden;
+  
   font-family: 'Lato', sans-serif;
   color: rgb(148, 55, 55);
 }
@@ -32,13 +32,14 @@ nav {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgb(178, 150, 179);
+  color: rgb(244, 237, 245);
   padding-top: .8rem;
 }
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #1ebba3;
+  color: #8E2403;
+  text-shadow: .1rem .1rem .1rem rgb(41, 2, 2);
 }
 
 .home-inner {
