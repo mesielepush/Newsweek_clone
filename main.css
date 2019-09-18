@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 body {
-    
+    background-color: rgb(201, 194, 194) !important;
     font-family: 'Lato', sans-serif;
     color: #505962;
 }
@@ -95,6 +95,25 @@ nav {
     background-color: rgba(224, 197, 183,.7);
     text-shadow: .1rem .1rem .2rem black;
 }
+#course {
+  padding-top: 40px; 
+  
+}
+.course_content {
+  padding: 40px;
+  background-color: rgb(238, 228, 228) !important;
+}
+.things {
+  padding-top: 25px;
+}
+
+.things h3 {
+  padding-top: 25px;
+}
+.things div {
+  padding-top: 25px;
+}
+
 
 /*============ BOOTSTRAP BREAK PcaptionNTS:
 
