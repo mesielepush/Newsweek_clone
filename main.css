@@ -1,11 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 .search-icon {
   display: block;
   box-sizing: border-box;
   border: 1px solid red;
 }
 body {
-  background-color: rgb(230, 222, 222);
+  background-color: rgb(231, 224, 224);
+}
+.date {
+  display: none;
 }
 .logo svg {
-  width: 150px
+  margin-top: -10px;
+  width: 135px;
+  fill: white;
+}
+.log-subscribe {
+  
+  width: 250px;
+  border: 2px solid rgb(37, 19, 199);
+}
+
+
+.lk-3 {
+  position: relative;
+  top: 2px;
+  font: bold  "Roboto Condensed",sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 25px;
+  margin-left: 20px;
+  color: rgb(240, 12, 12);
+  font-weight: 700;
+  font-size: 1.1rem;
+  background-color: aliceblue;
+}
+
+.red-nav {
+  display: flex;
+  height: 50px;
+  background-color: #f72210;
+}
+.sign span{
+  font: bold  "Roboto Condensed",sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: rgb(107, 29, 29);
+}
+.lk-3 svg {
+  position: relative;
+  margin-bottom: 3px;
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+  fill: #f72210;
 }
