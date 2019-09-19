@@ -1,25 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 body {
-    background-color: rgb(201, 194, 194) !important;
+    
     font-family: 'Lato', sans-serif;
     color: #505962;
 }
 /* Navbar */
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
+.row, .container-fluid {
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+  }
+
 body {
   overflow-x: hidden;
-  font-family: 'Lato', sans-serif;
-  color: rgb(148, 55, 55);
+  
+  
 }
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
 
+}
 nav {
   text-transform: uppercase;
   font-weight: 700;
   font-size: .9rem;
   letter-spacing: .1rem;
-  background: red !important;
+ 
 }
 .narrow {
   width: 75%;
@@ -49,14 +60,14 @@ nav {
   text-shadow: .1rem .1rem .1rem rgb(41, 2, 2);
 }
 
-.home-inner {
+.home-inner{
   background-image: url(back.jpg);
   width: 100%;
   height: 100vh;
   background-size: cover
 }
 #main_title {
-    background-color: rgba(110, 102, 89, 0.3);
+    
     color: rgb(233, 232, 194);
 }
 
@@ -66,7 +77,6 @@ nav {
   position: absolute;
   top: 38%;
   z-index: 1;
-  color: rgb(213, 212, 224);
   text-transform: uppercase;
 }
 
@@ -84,7 +94,7 @@ nav {
   font-weight: 700;
   text-shadow: .1rem .1rem .5rem black;
   padding-bottom: 1rem;
-  color: rgb(244, 237, 245);
+  
 }
 
 .btn-lg {
@@ -93,7 +103,7 @@ nav {
   padding: .6rem 1.3rem;
   font-size: 2.1rem;
   font-weight: 800;
-  color:rgb(233, 232, 194);
+  
   background-color: rgba(95, 42, 97, 0.4);
   border:4px solid rgb(244, 237, 245);
 }
@@ -108,24 +118,57 @@ nav {
 }
 .course_content {
   padding: 40px;
-  background-color: rgb(238, 228, 228) !important;
-}
-.things {
-  padding-top: 25px;
+  
 }
 
-.things h3 {
-  padding-top: 25px;
-}
-.things div {
-  padding-top: 25px;
-}
 
 
 [class*="col-"] {
   padding: 1rem;
 }
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+}
+.jumbotron {
+  margin-bottom: 1;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+}
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+} 
 
+.head-underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: rebeccapurple;
+  margin: 0 auto;
+  margin-bottom: 1.9rem;
+}
+
+.fixed {
+  
+  background-image: url(camp.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: -1 !important;
+}
 /*============ BOOTSTRAP BREAK PcaptionNTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
