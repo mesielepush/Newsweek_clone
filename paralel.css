@@ -1,13 +1,207 @@
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    background: #f9f9f9;
-    font-size: 24px;
-    padding: 25px;
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+body {
+    
+    font-family: 'Lato', sans-serif;
+    color: #505962;
 }
-.paralel {
-    background: url(back.jpg) no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 2000px;
+/* Navbar */
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.row, .container-fluid {
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+  }
+
+body {
+  overflow-x: hidden;
+  
+  
 }
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+
+}
+nav {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+ 
+}
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+    font-size: 2.4rem;
+  }
+
+.navbar-brand img {
+  height: 3rem;
+}
+
+.navbar-nav li {
+  padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(244, 237, 245);
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #8E2403;
+  text-shadow: .1rem .1rem .1rem rgb(41, 2, 2);
+}
+
+.home-inner{
+  background-image: url(back.jpg);
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  background-size: cover
+}
+#main_title {
+    
+    color: rgb(233, 232, 194);
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1rem;
+  
+}
+
+.caption h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1rem;
+  
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 5;
+  padding: .6rem 1.3rem;
+  font-size: 2.1rem;
+  font-weight: 800;
+  
+  background-color: rgba(95, 42, 97, 0.4);
+  border:4px solid rgb(244, 237, 245);
+}
+
+.btn-lg:hover {
+    background-color: rgba(224, 197, 183,.7);
+    text-shadow: .1rem .1rem .2rem black;
+}
+#course {
+  padding-top: 40px; 
+  
+}
+.course_content {
+  padding: 40px;
+  
+}
+
+
+
+[class*="col-"] {
+  padding: 1rem;
+}
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+}
+.jumbotron {
+  margin-bottom: 1;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+}
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+} 
+
+.head-underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: rebeccapurple;
+  margin: 0 auto;
+  margin-bottom: 1.9rem;
+}
+
+.fa-code, .fa-bold, .fa-css3 {
+  color: white;
+}
+
+.fixed-background {
+  
+  background-image: url(camp.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 50;
+  z-index: -1 !important;
+}
+.fixed-background p {
+  font-size: 2rem;
+  color: white;
+  -webkit-text-stroke-width: .5px; 
+  -webkit-text-stroke-color: black;
+}
+.fixed-background h3 {
+  font-size: 3rem;
+  color: white;
+  -webkit-text-stroke-width: .5px; 
+  -webkit-text-stroke-color: black;
+}
+/*============ BOOTSTRAP BREAK PcaptionNTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
