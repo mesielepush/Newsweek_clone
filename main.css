@@ -176,10 +176,16 @@ h3.heading {
   z-index: -1 !important;
 }
 .fixed-background p {
-  color: white !important;
+  font-size: 2rem;
+  color: white;
+  -webkit-text-stroke-width: .5px; 
+  -webkit-text-stroke-color: black;
 }
 .fixed-background h3 {
-  color: white !important;
+  font-size: 3rem;
+  color: white;
+  -webkit-text-stroke-width: .5px; 
+  -webkit-text-stroke-color: black;
 }
 /*============ BOOTSTRAP BREAK PcaptionNTS:
 
