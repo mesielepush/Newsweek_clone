@@ -69,27 +69,19 @@ header .header-right a.lk-3 {
   color: #f72210;
   background-color: #fff;
   width: 127px;
+  height: 25px;
+  margin-top: 2px;
 }
 header .header-right {
   right: 25px;
 }
 
-header .lk-3 svg {
-  fill: #111010;
-}
-
 .sign-sub {
+  flex-direction: row-reverse;
   margin-top: 12px;
-  margin-left: 4px; 
+  margin-right: 33px; 
 }
 
-
-/*
-header .header-right a.btn {
-  height: 26px;
-  font-size: 1px;
-  padding: 6px;
-} */
 .menu_bar {
   margin-right: 10px;
 }
@@ -98,7 +90,7 @@ header .navbar-toggler {
   display: inline;
   position: absolute;
   right: 13px;
-  top: 10px;
+  top: 13px;
   height: 28px;
   width: 28px;
   padding: 0;
@@ -109,8 +101,31 @@ header .navbar-toggler .cross {
   display: none;
 }
 
-
-
+.lk-2 span{
+  box-sizing: border-box;
+  position: relative;
+  font: bold 17px/17px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 6px 3px;
+  margin-top: -4px;
+  
+}
+.lk-3 span{
+  box-sizing: border-box;
+  position: relative;
+  left: -7px;
+  font: bold 15px/15px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 6px 3px;
+  text-shadow: 0.0vh 0.0vh 0.1vh #f72210;
+}
+.lk-3 svg {
+  height: 2vh;
+  fill: #f72210;
+  margin-left: 4px;
+}
 /*
 
 
@@ -141,9 +156,7 @@ header .navbar-toggler svg {
   font-stretch: expanded;
 }
 
-.lk-3 svg {
-  height: 10px;  
-}
+
 
 
 @media (max-width: 992px) {
