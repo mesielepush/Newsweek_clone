@@ -52,11 +52,13 @@ header {
   z-index: 665;
 }
 
+header .date {
+  display: none;
+}
+
 header .logo {
   height: 20px;
 }
-
-
 
 header .logo a svg {
   fill: #fff;
@@ -68,10 +70,48 @@ header .header-right a.lk-3 {
   background-color: #fff;
   width: 127px;
 }
+header .header-right {
+  right: 25px;
+}
 
 header .lk-3 svg {
   fill: #111010;
 }
+
+.sign-sub {
+  margin-top: 12px;
+  margin-left: 4px; 
+}
+
+
+/*
+header .header-right a.btn {
+  height: 26px;
+  font-size: 1px;
+  padding: 6px;
+} */
+.menu_bar {
+  margin-right: 10px;
+}
+
+header .navbar-toggler {
+  display: inline;
+  position: absolute;
+  right: 13px;
+  top: 10px;
+  height: 28px;
+  width: 28px;
+  padding: 0;
+  fill: #FB9A94;
+}
+
+header .navbar-toggler .cross {
+  display: none;
+}
+
+
+
+/*
 
 
 header .navbar-toggler svg {
@@ -79,13 +119,7 @@ header .navbar-toggler svg {
   height: 16px;
 }
 
-header .navbar-toggler .cross {
-  display: none;
-}
-.sign-sub {
-  margin-top: 12px;
-  margin-left: 4px; 
-}
+
 
 
 .lk-2 span{
@@ -115,34 +149,10 @@ header .navbar-toggler .cross {
 @media (max-width: 992px) {
   
 
-  header .date {
-    display: none;
-  }
+  
+/*
+  
 
-  header .header-right {
-    right: 25px;
-  }
-
-  header .header-right a.btn {
-    height: 26px;
-    font-size: 14px;
-    padding: 6px;
-  }
-
-  header .navbar-toggler {
-    display: inline;
-    position: absolute;
-    right: 0;
-    top: 0px;
-    height: 50px;
-    width: 50px;
-    padding: 0;
-  }
-
-  header .navbar-toggler svg {
-    margin: auto;
-    fill: white;
-    height: 16px;
-  }
+  
 }
 
