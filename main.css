@@ -49,79 +49,30 @@ header {
   position: relative;
   height: 50px;
   background-color: #f72210;
-  padding: 20px 0 15px 0;
   z-index: 665;
 }
-.redbar {
-  margin-top: 5px;
-}
-.sign-sub {
-  margin-right: 40px;
-}
-
-
-.lk-2 span{
-  box-sizing: border-box;
-  position: relative;
-  font: bold 18px/18px "Roboto Condensed",sans-serif;
-  text-transform: uppercase;
-  display: inline-block;
-  padding: 6px 3px;
-}
-.lk-3 span{
-  box-sizing: border-box;
-  position: relative;
-  font: bold 18px/18px "Roboto Condensed",sans-serif;
-  text-transform: uppercase;
-  display: inline-block;
-  padding: 6px 3px;
-}
-
 
 header .logo {
-  height: 60px;  
-}
-
-header .logo a {
-  display: block;
-  position: relative;
-  height: 100%;
-  width: 396px;
+  height: 20px;
+  margin-top: 8px;
+  margin-left: 13px;
 }
 
 header .logo a svg {
-  position: absolute;
-  top: 0;
   fill: #fff;
   height: 100%;
-}
-
-header .date div {
-  font-weight: normal;
-  line-height: 34px;
-  padding: 0 15px;
-}
-
-header .header-right {
-  height: 100%;
-}
-
-header .header-right a {
-  font-size: 18px;
 }
 
 header .header-right a.lk-3 {
   color: #f72210;
   background-color: #fff;
+  width: 127px;
 }
 
-header .header-right a.lk-3 svg {
-  fill: #f72210;
+header .lk-3 svg {
+  fill: #111010;
 }
 
-header .navbar-toggler {
-  display: none;
-}
 
 header .navbar-toggler svg {
   width: 16px;
@@ -131,26 +82,38 @@ header .navbar-toggler svg {
 header .navbar-toggler .cross {
   display: none;
 }
-
-header .navbar-toggler.crossed .cross {
-  display: block;
+.sign-sub {
+  margin-right: 40px;
+  margin-top: 15px;
 }
 
-header .navbar-toggler.crossed .bars {
-  display: none;
+
+.lk-2 span{
+  box-sizing: border-box;
+  position: relative;
+  font: bold 17px/17px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 6px 3px;
+  
 }
+.lk-3 span{
+  box-sizing: border-box;
+  position: relative;
+  font: bold 17px/17px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 6px 3px;
+  font-stretch: expanded;
+}
+
+.lk-3 svg {
+  height: 10px;  
+}
+
 
 @media (max-width: 992px) {
-  header {
-    padding: 7px 0;
-  }
-
-  header .logo {
-    height: 20px;
-    -webkit-box-pack: left;
-    -ms-flex-pack: left;
-    justify-content: left;
-  }
+  
 
   header .logo a svg {
     position: absolute;
@@ -176,8 +139,8 @@ header .navbar-toggler.crossed .bars {
     position: absolute;
     right: 0;
     top: 0px;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     padding: 0;
   }
 
