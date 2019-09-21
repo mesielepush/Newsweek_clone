@@ -6,22 +6,24 @@
 }
 
 .background-a1 {
-    background-color: blueviolet;
+    background-color: rgba(137, 78, 192, 0.7);
     position: absolute;
     top: 0%;
     left: 379px;
     height: 381px;
-    width: 569px;;
+    width: 550px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    z-index: 1;
 }
 .background-b1 {
-    background-color: rgb(197, 144, 247);
+    background-color: rgba(197, 144, 247,0.7);
     position: absolute;
     top: 0%;
-    right: 376px;
+    right: 395px;
     height: 381px;
     width: 569px;;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    z-index: 1;
 }
   .carpet {
     padding-right: 15px;
@@ -29,11 +31,11 @@
     margin-right: auto;
     margin-left: auto;
     position: absolute;
-    top: 480px;
-    left: 299px;
+    top: 479px;
+    left: 302px;
     height: 5rem;
     width: 5rem;
-    background-color: #275515;
+    background-color: #6b7ca0;
     -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%, 0% 100%);
     
   }
@@ -46,18 +48,18 @@
     margin-right: auto;
     margin-left: auto;
     position: absolute;
-    top: 50%;
-    left: 379px;
+    top: 479px;
+    left: 382px;
     height: 5rem;
     width:1200px;
-    background-color: #0f180c;
+    background-color: #748cb8;
     -webkit-clip-path: polygon(0 0%, 95% 0, 100% 100%, 0% 100%);
-    
+    z-index: 0;
   }
   .mesure_one {
     display: flex;
     position: absolute;
-    top: 560px;
+    top: 564px;
     left: 378px;
     height: 5rem;
     width:1138px;
@@ -81,7 +83,7 @@
 
   .mesures_second {
     position: absolute;
-    top: 560px;
+    top: 564px;
     left: 378px;
     height: 5rem;
     width:1138px;
@@ -108,6 +110,7 @@
     z-index: 9999;
   }
   .square_1 {
+    
     min-height: 100px;
     min-width: 100px;
     background-color: #7787e2;
@@ -120,12 +123,13 @@
     margin-right: auto;
     margin-left: auto;
     position: absolute;
-    top: 120px;
-    left:923px;
+    top: 95px;
+    left: 903px;
     height: 50px;
     width:50px;
-    background-color: #7c83c2;
+    background-color: rgba(151, 109, 16, 0.7);
     -webkit-clip-path:circle(40%);
+    z-index: 9999;
   }
   .foot {
       height: 500px;
@@ -136,15 +140,61 @@
     top: 119px;
     left: 377px;
     height: 440px;
-    width: 570px;;
-    clip-path: polygon(94% 0, 100% 0%, 15.5% 100%, 0% 100%);
+    width: 550px;;
+    clip-path: polygon(100% 0, 100% 0%, 19% 100%, 0% 100%);
 }
 .soil_left-1 {
   background-color: rgba(185, 218, 55, 0.7);
   position: absolute;
-  top: 120px;
-  left: 377px;
+  top: 119px;
+  left: 481px;
   height: 440px;
-  width: 649px;;
-  clip-path: polygon(94% 0, 100% 0%, 15.5% 100%, 0% 100%);
+  width: 446px;
+  clip-path: polygon(100% 0, 100% 0%,22% 100%, 0% 100%);
+  
+}
+.soil_left-2 {
+  background-color: rgba(41, 207, 152, 0.7);
+  position: absolute;
+  top: 119px;
+  left: 579px;
+  height: 440px;
+  width: 348px;
+  clip-path: polygon(100% 0, 100% 0%,28.5% 100%, 0% 100%);
+}
+.soil_left-3 {
+  background-color: rgba(145, 173, 67, 0.767);
+  position: absolute;
+  top: 119px;
+  left: 677px;
+  height: 440px;
+  width: 250px;
+  clip-path: polygon(100% 0, 100% 0%,41% 100%, 0% 100%);
+}
+.soil_left-4 {
+  background-color: rgba(64, 214, 207, 0.767);
+  position: absolute;
+  top: 119px;
+  left: 778px;
+  height: 440px;
+  width: 148px;
+  clip-path: polygon(100% 0, 100% 0%,68% 100%, 0% 100%);
+}
+.soil_center {
+  background-color: rgba(107, 61, 182, 0.767);
+  position: absolute;
+  top: 119px;
+  left: 878px;
+  height: 440px;
+  width: 48px;
+  clip-path: polygon( 100% 0, 100% 100%, 0% 100%);
+}
+.soil_center_right {
+  background-color: rgba(107, 61, 182, 0.767);
+  position: absolute;
+  top: 119px;
+  left: 878px;
+  height: 440px;
+  width: 48px;
+  clip-path: polygon( 100% 0, 100% 100%, 0% 100%);
 }
