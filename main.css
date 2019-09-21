@@ -27,6 +27,14 @@ li {
   list-style: none;
 }
 
+a {
+  color: rgb(190, 35, 35);
+}
+
+
+.white-nav {
+  display: none;
+}
 .btn {
   width: auto;
   height: 34px;
@@ -148,6 +156,7 @@ header .navbar-toggler .cross {
   }
   
   .white-nav {
+    display: block;
     position: -webkit-relative;
     position: relative;
     background-color: white;
@@ -204,14 +213,33 @@ header .navbar-toggler .cross {
     box-sizing: border-box;
     display: -ms-grid;
     display: grid;
-  
-    grid-template-columns: repeat(8, auto);
+    grid-template-columns: repeat(10, auto);
   }
   
-  nav ul :nth-child(1) {
+  .white-nav ul :nth-child(1) {
     border: none;
   }
+
+  .white-nav ul li {
+    font-size: 21px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    margin-top:  15px;
+    border-left: 1px solid #d9d9d9;
+  }
+  /* LINKS ARE NOT SHOWING UP */
   
+  .white-nav ul li a {
+    color: black;
+    padding: 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
   
   header .date {
     display: block;
