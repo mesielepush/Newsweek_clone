@@ -29,11 +29,11 @@
     margin-right: auto;
     margin-left: auto;
     position: absolute;
-    top: 50%;
-    left: 298px;
+    top: 480px;
+    left: 299px;
     height: 5rem;
     width: 5rem;
-    background-color: #7c83c2;
+    background-color: #275515;
     -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%, 0% 100%);
     
   }
@@ -50,13 +50,73 @@
     left: 379px;
     height: 5rem;
     width:1200px;
-    background-color: #7c83c2;
+    background-color: #0f180c;
     -webkit-clip-path: polygon(0 0%, 95% 0, 100% 100%, 0% 100%);
     
   }
+  .mesure_one {
+    display: flex;
+    position: absolute;
+    top: 560px;
+    left: 378px;
+    height: 5rem;
+    width:1138px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    z-index: 9999;
+  }
+
+  .square_2 {
+    height: 100px;
+    width: 100px;
+    border-right: 1px solid black;
+    background-color: rgba(199, 180, 180,0.4)
+  }
+  .square_3 {
+    height: 100px;
+    width: 100px;
+    border-right: 1px solid black;
+    background-color: rgba(156, 86, 86, 0.4)
+  }
+  
+
+  .mesures_second {
+    position: absolute;
+    top: 560px;
+    left: 378px;
+    height: 5rem;
+    width:1138px;
+    background-color: #ac8048;
+    
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    z-index: 9997;
+  }
+  .decimal {
+    display: inline-block;
+    width: 6px;
+    height: 100px;
+    margin-right: 0px;
+    background-color: rgb(149, 208, 231)
+  }
+  
+  
+
+  .square {
+    min-height: 100px;
+    min-width: 100px;
+    background-color: #060f02;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    z-index: 9999;
+  }
+  .square_1 {
+    min-height: 100px;
+    min-width: 100px;
+    background-color: #7787e2;
+    border-right:1px solid black;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    z-index: 9999;
+  }
   .center {
-    
-    
+       
     margin-right: auto;
     margin-left: auto;
     position: absolute;
@@ -70,12 +130,21 @@
   .foot {
       height: 500px;
   }
-.screen_left {
-    background-color: rgba(151, 158, 124,0.5);
+.soil_left {
+    background-color: rgba(151, 158, 124,0.7);
     position: absolute;
-    top: 80px;
-    left: 299px;
-    height: 381px;
-    width: 649px;;
-    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+    top: 119px;
+    left: 377px;
+    height: 440px;
+    width: 570px;;
+    clip-path: polygon(94% 0, 100% 0%, 15.5% 100%, 0% 100%);
+}
+.soil_left-1 {
+  background-color: rgba(185, 218, 55, 0.7);
+  position: absolute;
+  top: 120px;
+  left: 377px;
+  height: 440px;
+  width: 649px;;
+  clip-path: polygon(94% 0, 100% 0%, 15.5% 100%, 0% 100%);
 }
