@@ -18,6 +18,10 @@
 body {
   background-color: #f4f5f6;
 }
+/*
+.redbar {
+  max-width: 1313px;
+}*/
 
 .btn {
   width: auto;
@@ -44,12 +48,17 @@ body {
   color: rgb(235, 225, 225);
   text-decoration: none;
 }
-
+nav {
+  max-width: 1310px;
+  margin: auto;
+  background-color: white;
+}
 header {
   position: relative;
   height: 50px;
   background-color: #f72210;
-  z-index: 665;
+  z-index: 9999;
+  width: 100%;
 }
 
 header .date {
@@ -126,46 +135,23 @@ header .navbar-toggler .cross {
   fill: #f72210;
   margin-left: 4px;
 }
-/*
 
-
-header .navbar-toggler svg {
-  width: 16px;
-  height: 16px;
+@media (max-width: 991px) {
+  
+   
 }
-
-
-
-
-.lk-2 span{
-  box-sizing: border-box;
-  position: relative;
-  font: bold 17px/17px "Roboto Condensed",sans-serif;
-  text-transform: uppercase;
-  display: inline-block;
-  padding: 6px 3px;
+@media (min-width: 992px) {
+  header {
+    height: 97px;
+    
+  }
   
+  button {
+    display: none !important;
+  }
+  
+  .sign-sub {
+    margin-right: -30px;
+  }
+
 }
-.lk-3 span{
-  box-sizing: border-box;
-  position: relative;
-  font: bold 17px/17px "Roboto Condensed",sans-serif;
-  text-transform: uppercase;
-  display: inline-block;
-  padding: 6px 3px;
-  font-stretch: expanded;
-}
-
-
-
-
-@media (max-width: 992px) {
-  
-
-  
-/*
-  
-
-  
-}
-
