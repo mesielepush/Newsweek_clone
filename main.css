@@ -136,16 +136,30 @@ header .navbar-toggler .cross {
   margin-left: 4px;
 }
 
-@media (max-width: 991px) {
-  
-   
-}
 @media (min-width: 992px) {
   header {
     height: 97px;
-    
   }
-  
+  header .date {
+    display: block;
+    font-weight: normal;
+    line-height: 34px;
+    padding: 0 15px;
+    color: white;
+    font: normal 15px/15px "Roboto Condensed",sans-serif;
+    margin-bottom: 14px;
+    font-weight: 300;
+  }
+
+  header .logo {
+    height: 60px;
+    margin-top: 22px;
+    margin-left: 90px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: start;
+  }
+
   button {
     display: none !important;
   }
