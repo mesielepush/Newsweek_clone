@@ -1,0 +1,81 @@
+.portada {
+    
+    height: 920px; 
+    border: 2px solid red;
+    
+}
+
+.background-a1 {
+    background-color: blueviolet;
+    position: absolute;
+    top: 0%;
+    left: 379px;
+    height: 381px;
+    width: 569px;;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.background-b1 {
+    background-color: rgb(197, 144, 247);
+    position: absolute;
+    top: 0%;
+    right: 376px;
+    height: 381px;
+    width: 569px;;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+  .carpet {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    top: 50%;
+    left: 298px;
+    height: 5rem;
+    width: 5rem;
+    background-color: #7c83c2;
+    -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%, 0% 100%);
+    
+  }
+
+  
+
+  .carpet-1 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    top: 50%;
+    left: 379px;
+    height: 5rem;
+    width:1200px;
+    background-color: #7c83c2;
+    -webkit-clip-path: polygon(0 0%, 95% 0, 100% 100%, 0% 100%);
+    
+  }
+  .center {
+    
+    
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    top: 120px;
+    left:923px;
+    height: 50px;
+    width:50px;
+    background-color: #7c83c2;
+    -webkit-clip-path:circle(40%);
+  }
+  .foot {
+      height: 500px;
+  }
+.screen_left {
+    background-color: rgba(151, 158, 124,0.5);
+    position: absolute;
+    top: 80px;
+    left: 299px;
+    height: 381px;
+    width: 649px;;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}
