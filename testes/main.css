@@ -1,35 +1,32 @@
-.portada {
-    
-    height: 920px; 
-    border: 2px solid red;
-    
+body {
+  background-image: url(bac.png);
+  /* background: linear-gradient(#da6b58, #9198e5 );*/
+  height: 920px;
+}
+
+.back_all {
+  position: absolute;
+  width: 1297px;
+  height: 709px;
+  left: 282px;
+  background: linear-gradient(rgb(59, 31, 216) 1%, rgb(36, 17, 146));
 }
 
 .background-a1 {
-    background-color: rgb(92, 206, 39);
+    background: linear-gradient(rgba(212, 108, 108, 0.7) 70%, rgba(163, 38, 38, 0.7));
     position: absolute;
     top: 0%;
     left: 382px;
     height: 381px;
     width: 1100px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    z-index: 1;
+    z-index: 2;
 }
 
-.background-b1 {
-  background-color: rgb(92, 206, 39);
-  position: absolute;
-  top: 0%;
-  right: 405px;
-  height: 381px;
-  width: 550px;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  z-index: 1;
-}
 
 
 .block_center {
-  background-color: rgba(184, 164, 164, 0.5);
+  background-color: rgba(134, 68, 68, 0.5);
   position: absolute;
   top: 381px;
   left: 382px;
@@ -38,22 +35,39 @@
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   z-index: 1;
 }
-  .carpet {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  .col-izq {
     position: absolute;
-    top: 479px;
-    left: 302px;
-    height: 5rem;
-    width: 5rem;
-    background-color: #6B7CA0;
-    -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%, 0% 100%);
-    
+    width: 100px;
+    height: 479px;
+    top: 0px;
+    left: 382px;
+    background-color: rgba(134, 68, 68, 0.5);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    z-index: 9999;
   }
 
-  
+  .col-der {
+    position: absolute;
+    width: 100px;
+    height: 479px;
+    top: 0px;
+    left: 1380px;
+    background-color: rgba(134, 68, 68, 0.5);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    transform: scaleX(-1);
+    z-index: 9999;
+  }
+
+  .block-center_short {
+    background-color: rgba(209, 63, 19, 0.8);
+    position: absolute;
+    top: 407px;
+    left: 441px;
+    height:30px;
+    min-width: 980px;
+    clip-path: polygon(4% 0, 96% 0, 100% 100%, 0% 100%);
+    z-index: 1;
+  }
 
   .carpet-1 {
     padding-right: 15px;
@@ -62,26 +76,50 @@
     margin-left: auto;
     position: absolute;
     top: 479px;
-    left: 382px;
+    left: 282px;
     height: 5rem;
-    width:1200px;
-    background-color: #6B7CA0;
-    -webkit-clip-path: polygon(0 0%, 95% 0, 100% 100%, 0% 100%);
-    z-index: 0;
+    width: 198px;
+    background-color: rgb(134, 68, 68);
+    -webkit-clip-path: polygon(0 0, 50% 0, 100% 100%, 50% 100%);
+    z-index: 9999;
+    transform: scaleX(-1);
   }
+  
+
+  .carpet_2 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    top: 479px;
+    left: 1382px;
+    height: 5rem;
+    width: 198px;
+    background-color: rgb(134, 68, 68);
+    -webkit-clip-path: polygon(0 0, 50% 0, 100% 100%, 50% 100%);
+    z-index: 9999;
+    
+  }
+
   
   .center {
     margin-right: auto;
     margin-left: auto;
     position: absolute;
-    top: 95px;
-    left: 903px;
-    height: 50px;
-    width:50px;
-    background-color: rgba(189, 175, 145, 0.7);
+    top: 70px;
+    left: 880px;
+    height: 100px;
+    width:100px;
+    background-color: rgba(216, 20, 20, 0.4);
     -webkit-clip-path:circle(40%);
     z-index: 9999;
   }
+
+  .center:hover {
+    background-color: rgba(238, 154, 27, 0.7);
+  }
+
 .foot {
     height: 500px;
 }
@@ -92,11 +130,11 @@
     top: 119px;
     left: 380px;
     height: 440px;
-    width: 550px;;
-    clip-path: polygon(100% 0, 100% 0%, 19% 100%, 0% 100%);
+    width: 553px;
+    clip-path: polygon(100% 0, 100% 0%, 18.9% 100%, 0% 100%);
 }
 .soil_left:hover, .soil_right:hover {
-  background-color: rgba(170, 212, 16, 0.76);
+  background-color: rgba(104, 212, 16, 0.76);
 }
 .soil_left-1 {
   background-color: rgba(238, 234, 28, 0.76);
@@ -104,7 +142,7 @@
   top: 119px;
   left: 484px;
   height: 440px;
-  width: 446px;
+  width: 449px;
   clip-path: polygon(100% 0, 100% 0%,22% 100%, 0% 100%);
 }
 
@@ -119,8 +157,8 @@
   top: 119px;
   left: 582px;
   height: 440px;
-  width: 348px;
-  clip-path: polygon(100% 0, 100% 0%,28.5% 100%, 0% 100%);
+  width: 351px;
+  clip-path: polygon(100% 0, 100% 0%,28% 100%, 0% 100%);
 }
 
 .soil_left-2:hover, .soil_right-2:hover {
@@ -133,8 +171,8 @@
   top: 119px;
   left: 680px;
   height: 440px;
-  width: 250px;
-  clip-path: polygon(100% 0, 100% 0%,41% 100%, 0% 100%);
+  width: 253px;
+  clip-path: polygon(100% 0, 100% 0%,40% 100%, 0% 100%);
 }
 
 .soil_left-3:hover, .soil_right-3:hover {
@@ -147,8 +185,8 @@
   top: 119px;
   left: 781px;
   height: 440px;
-  width: 148px;
-  clip-path: polygon(100% 0, 100% 0%,68% 100%, 0% 100%);
+  width: 150px;
+  clip-path: polygon(0% 100%, 100% 0%,66% 100%, 0% 100%);
 }
 
 .soil_left-4:hover, .soil_right-4:hover {
@@ -156,13 +194,32 @@
 }
 
 .soil_center {
-  background-color: rgba(238, 154, 28, 0.76);
+  background-color: rgba(235, 152, 29, 0.76);
   position: absolute;
-  top: 119px;
-  left: 881px;
-  height: 440px;
+  top: 118px;
+  left: 880px;
+  height: 441px;
   width: 50px;
-  clip-path: polygon( 96% 0, 100% 100%, 0% 100%);
+  clip-path: polygon( 100% 0, 100% 100%, 0% 100%);
+}
+
+.semi_column_izq {
+  position: absolute;
+  top: 0px;
+  left: 482px;
+  height: 408px;
+  width: 50px;
+  background-color: rgba(137, 160, 53, 0.4);
+  z-index: 9999;
+}
+.semi_column_der {
+  position: absolute;
+  top: 0px;
+  left: 1330px;
+  height: 408px;
+  width: 50px;
+  background-color: rgba(137, 160, 53, 0.4);
+  z-index: 9999;
 }
 
 .soil_center:hover, .soil_center_right:hover  {
@@ -172,9 +229,9 @@
 .soil_center_right {
   background-color: rgba(235, 152, 29, 0.76);
   position: absolute;
-  top: 119px;
+  top: 115px;
   left: 930px;
-  height: 440px;
+  height: 444px;
   width: 53px;
   clip-path: polygon(100% 0, 100% 100%, 0% 100%);
   transform: scaleX(-1);
@@ -182,41 +239,43 @@
 .soil_right {
   background-color: rgba(206, 238, 28, 0.76);
   position: absolute;
-  top: 120px;
-  left: 930px;
-  height: 445px;
-  width: 560px;
-  clip-path: polygon(100% 0, 100% 0%, 17.5% 100%, 0% 100%);
+  top: 119px;
+  left: 928px;
+  height: 440px;
+  width: 564px;
+  clip-path: polygon(100% 0, 100% 0%, 19.6% 100%, 0% 100%);
   transform: scaleX(-1);
 }
 .soil_right-1 {
+  /*rgba(238, 234, 28, 0.76);*/
   background-color: rgba(238, 234, 28, 0.76);
   position: absolute;
-  top: 110px;
-  left: 918px;
-  height: 449px;
-  width: 468px;
-  clip-path: polygon(100% 0, 100% 0%,22% 100%, 0% 100%);
+  top: 119px;
+  left: 928px;
+  height: 440px;
+  width: 454px;
+  clip-path: polygon(100% 0, 100% 0%,22.2% 100%, 0% 100%);
   transform: scaleX(-1);
 }
 .soil_right-2 {
   background-color: rgba(238, 206, 28, 0.76);
   position: absolute;
   top: 119px;
-  left: 930px;
+  left: 928.2px;
   height: 440px;
-  width: 353px;
-  clip-path: polygon(100% 0, 100% 0%,28.5% 100%, 0% 100%);
+  width: 354px;
+  clip-path: polygon(100% 0, 100% 0%,28.3% 100%, 0% 100%);
   transform: scaleX(-1);
 }
 .soil_right-3 {
+  /*rgba(238, 182, 28, 0.76);*/
   background-color: rgba(238, 182, 28, 0.76);
   position: absolute;
   top: 119px;
-  left: 930px;
+  left: 929px;
   height: 440px;
-  width: 254px;
-  clip-path: polygon(100% 0, 100% 0%,40% 100%, 0% 100%);
+  width: 253.5px;
+  clip-path: polygon(100% 0, 100% 0%,39.5% 100%, 0% 100%);
   transform: scaleX(-1);
 }
 .soil_right-4 {
@@ -230,7 +289,10 @@
   transform: scaleX(-1);
 }
 
-
+.mesure_one, .mesures_second {
+  margin-top:100px;
+  display: none;
+}
 
 
 .mesure_one {
@@ -287,11 +349,189 @@
   z-index: 9999;
 }
 .square_1 {
-  
   min-height: 100px;
   min-width: 100px;
   background-color: #7787e2;
   border-right:1px solid black;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   z-index: 9999;
+}
+.rectangle-0 {
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  top: 559px;
+  left: 282px;
+  z-index: 9999;
+  background: linear-gradient(#804040 2%, #180c0c);
+}
+
+.rectangle-0:hover {
+  background: linear-gradient(#e29b9b 2%, #180c0c);
+}
+
+.rectangle-1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 559px;
+  left: 382px;
+  z-index: 9999;
+  background: linear-gradient(rgba(179, 206, 25, 0.76) 2%, rgba(46, 53, 6, 0.76));
+}
+
+.rectangle-1:hover {
+  background: linear-gradient(rgba(206, 238, 28, 0.76) 5%, rgba(27, 31, 4, 0.76));
+}
+
+.rectangle-2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 559px;
+  left: 482px;
+  z-index: 9999;
+  background: linear-gradient(rgba(223, 193, 27, 0.76) 2%, rgba(59, 59, 7, 0.76));
+}
+
+.rectangle-2:hover {
+  background: linear-gradient(rgba(247, 214, 32, 0.76) 5%, rgba(36, 41, 11, 0.76));
+}
+
+.rectangle-3 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 559px;
+  left: 582px;
+  z-index: 9999;
+  background: linear-gradient(rgb(204, 167, 46) 2%, #333303c2);
+}
+
+.rectangle-3:hover {
+  background: linear-gradient(rgba(224, 196, 36, 0.86) 5%, #272701c2);
+}
+
+.rectangle-4 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 559px;
+  left: 682px;
+  z-index: 9999;
+  background: linear-gradient(rgba(206, 158, 26, 0.76) 2%, #333303c2);
+}
+
+.rectangle-4:hover {
+  background: linear-gradient(rgba(218, 177, 67, 0.76) 5%, rgba(39, 30, 4, 0.76));
+}
+
+.rectangle-5 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 559px;
+  left:782px;
+  z-index: 9999;
+  background: linear-gradient(rgba(233, 160, 51, 0.76) 2%, #333303c2);
+}
+
+.rectangle-5:hover {
+  background: linear-gradient(rgba(226, 169, 82, 0.76) 5%, rgba(43, 32, 15, 0.76));
+}
+
+.rectangle-6 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 559px;
+  left:882px;
+  z-index: 9999;
+  background: linear-gradient(rgba(216, 133, 10, 0.76) 2%, rgba(46, 29, 3, 0.76));
+}
+
+.rectangle-6:hover {
+  background: linear-gradient(rgba(240, 177, 40, 0.76) 5%, #272701c2);
+}
+
+.rectangle-7 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 559px;
+  left:982px;
+  z-index: 9999;
+  background: linear-gradient(rgba(233, 160, 51, 0.76) 2%, #333303c2);
+}
+
+.rectangle-7:hover {
+  background: linear-gradient(rgba(226, 169, 82, 0.76) 5%, rgba(43, 32, 15, 0.76));
+}
+
+.rectangle-8 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 559px;
+  left:1082px;
+  z-index: 9999;
+  background: linear-gradient(rgba(206, 158, 26, 0.76) 2%, #333303c2);
+}
+
+.rectangle-8:hover {
+  background: linear-gradient(rgba(218, 177, 67, 0.76) 5%, rgba(39, 30, 4, 0.76));
+}
+
+.rectangle-9 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 559px;
+  left:1182px;
+  z-index: 9999;
+  background: linear-gradient(rgb(204, 167, 46) 2%, #333303c2);
+}
+
+.rectangle-9:hover {
+  background: linear-gradient(rgba(224, 196, 36, 0.86) 5%, #272701c2);
+}
+
+.rectangle-10 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 559px;
+  left:1282px;
+  z-index: 9999;
+  background: linear-gradient(rgba(223, 193, 27, 0.76) 2%, rgba(59, 59, 7, 0.76));
+}
+
+.rectangle-10:hover {
+  background: linear-gradient(rgba(247, 214, 32, 0.76) 5%, rgba(36, 41, 11, 0.76));
+}
+.rectangle-11 {
+  position: absolute;
+  width: 99px;
+  height: 100px;
+  top: 559px;
+  left:1382px;
+  z-index: 9999;
+  background: linear-gradient(rgba(179, 206, 25, 0.76) 2%, rgba(46, 53, 6, 0.76));
+}
+
+.rectangle-11:hover {
+  background: linear-gradient(rgba(206, 238, 28, 0.76) 5%, rgba(27, 31, 4, 0.76));
+}
+.rectangle-12 {
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  top: 559px;
+  left: 1480px;
+  z-index: 9999;
+  background: linear-gradient(#804040 2%, #180c0c);
+}
+
+.rectangle-12:hover {
+  background: linear-gradient(#e29b9b 2%, #180c0c);
 }
