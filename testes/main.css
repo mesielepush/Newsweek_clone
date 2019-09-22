@@ -297,7 +297,17 @@ body {
   clip-path: polygon(100% 0, 100% 0%, 63.5% 100%, 0% 100%);
   z-index: -4;
 }
-
+.back_lines-15 {
+  background: linear-gradient(rgb(34, 23, 6) 90%,rgb(230, 151, 33) );
+  
+  position: absolute;
+  top: 119px;
+  left: 854px;
+  height: 850px;
+  width: 140px;
+  clip-path: polygon(100% 0, 100% 0%, 100% 100%, 0% 100%);
+  z-index: -4;
+}
 .z_ {
   z-index: 6;
 }
