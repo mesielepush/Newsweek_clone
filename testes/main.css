@@ -9,8 +9,9 @@ body {
   position: absolute;
   width: 1300px;
   height: 709px;
+  top: 80px;
   left: 282px;
-  background: linear-gradient(rgb(32, 16, 124) 10%, rgb(58, 55, 75));
+  background: linear-gradient(rgb(4, 4, 41) 10%, rgb(58, 55, 75));
   z-index: -3;
 }
 
@@ -28,7 +29,7 @@ body {
 
 
 .block_center {
-  background-color: rgba(172, 123, 123, 0.5);
+  background-color: rgba(172, 123, 123, 0.2);
   position: absolute;
   top: 381px;
   left: 382px;
@@ -115,7 +116,19 @@ body {
     width:100px;
     background-color: rgba(216, 20, 20, 0.4);
     -webkit-clip-path:circle(40%);
-    z-index: 9999;
+    z-index: 99999;
+  }
+
+  .center-1 {
+    top: 45px;
+    left: 855px;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(131, 95, 74, 0.5);
+  }
+
+  .center-1:hover {
+    background-color: rgba(223, 193, 27, 0.9);
   }
 
   .center:hover {
@@ -124,6 +137,49 @@ body {
 
 .foot {
     height: 500px;
+}
+
+.back_lines-1 {
+  background-color: rgb(238, 95, 28);
+  position: absolute;
+  top: 119px;
+  left: -66px;
+  height: 850px;
+  width: 1000px;
+  clip-path: polygon(100% 0, 100% 0%, 14% 100%, 0% 100%);
+  z-index: -4;
+}
+.back_lines-2 {
+  background-color: rgb(184, 75, 24);
+  position: absolute;
+  top: 119px;
+  left: -226px;
+  height: 850px;
+  width: 1160px;
+  clip-path: polygon(100% 0, 100% 0%, 14% 100%, 0% 100%);
+  z-index: -4;
+}
+.back_lines-3 {
+  background-color: rgb(238, 95, 28);
+  position: absolute;
+  top: 119px;
+  right: -33px;
+  height: 850px;
+  width: 1000px;
+  clip-path: polygon(100% 0, 100% 0%, 14% 100%, 0% 100%);
+  z-index: -4;
+  transform: scaleX(-1);
+}
+.back_lines-4 {
+  background-color: rgb(184, 75, 24);
+  position: absolute;
+  top: 119px;
+  right: -194px;
+  height: 850px;
+  width: 1160px;
+  clip-path: polygon(100% 0, 100% 0%, 14% 100%, 0% 100%);
+  z-index: -4;
+  transform: scaleX(-1);
 }
 
 .z_ {
@@ -215,7 +271,7 @@ body {
   position: absolute;
   top: 0px;
   left: 482px;
-  height: 408px;
+  height: 407px;
   width: 50px;
   background-color: rgba(137, 160, 53, 0.4);
   z-index: 9999;
@@ -224,10 +280,21 @@ body {
   position: absolute;
   top: 0px;
   left: 1330px;
-  height: 408px;
+  height: 407px;
   width: 50px;
   background-color: rgba(137, 160, 53, 0.4);
   z-index: 9999;
+}
+
+.hor_line {
+  position: absolute;
+  width: 913px;
+  height: 43px;
+  top: 436px;
+  left: 479px;
+  clip-path: polygon(6% 0, 94% 0, 100% 100%, 0 100%);
+  z-index: 99999;
+  background-color: rgba(49, 71, 100, .8);
 }
 
 .soil_center:hover, .soil_center_right:hover  {
@@ -420,7 +487,7 @@ body {
 }
 
 .rectangle-3:hover {
-  background: linear-gradient(rgba(224, 196, 36, 0.86) 5%, #272701c2);
+  background: linear-gradient(rgba(224, 196, 36, 0.4) 55%, #272701c2);
 }
 
 /*background: linear-gradient(rgb(167, 139, 49) 2%, rgb(54, 46, 17));
@@ -437,11 +504,11 @@ body {
   top: 559px;
   left: 682px;
   z-index: 9999;
-  background: linear-gradient(rgba(206, 158, 26,1) 2%, rgb(51, 41, 8)) !important;
+  background: linear-gradient(rgba(206, 158, 26,1) 2%, rgb(51, 41, 8)) ;
 }
 
 .rectangle-4:hover {
-  background: linear-gradient(rgba(218, 177, 67, 0.5) 5%, rgba(39, 30, 4, 0.76));
+  background: linear-gradient(rgba(218, 177, 67, 0.5) 5%, rgba(39, 30, 4, 0.1));
 }
 
 .rectangle-5 {
@@ -451,7 +518,7 @@ body {
   top: 559px;
   left:782px;
   z-index: 9999;
-  background: linear-gradient(rgba(233, 160, 51) 2%, #333303c2);
+  background: linear-gradient(rgba(233, 160, 51) 2%, rgb(63, 44, 15));
 }
 
 .rectangle-5:hover {
@@ -465,7 +532,7 @@ body {
   top: 559px;
   left:882px;
   z-index: 9999;
-  background: linear-gradient(rgba(216, 133, 10) 2%, rgba(46, 29, 3));
+  background: linear-gradient(rgba(216, 133, 10) 2%, rgb(59, 43, 18));
 }
 
 .rectangle-6:hover {
@@ -623,7 +690,7 @@ background-color: rgb(199, 166, 58);
 
 .footer-5 {
   
-  background: linear-gradient( rgb(36, 24, 8) 72%, rgba(233, 160, 51));
+  background: linear-gradient( rgb(37, 24, 3) 72%, rgba(216, 133, 10));
   position: absolute;
   top: 119px;
   left: 731px;
@@ -633,20 +700,206 @@ background-color: rgb(199, 166, 58);
   z-index: -3;
 }
 .footer-5:hover {
-background-color: rgb(199, 166, 58);
+background-color: rgba(233, 160, 51, 0.1);
 }
 
 .footer-6 {
   
-  background: linear-gradient( rgb(36, 24, 8) 72%, rgb(129, 92, 35));
+  background: linear-gradient( rgb(58, 37, 9) 72%, rgb(129, 92, 35));
   position: absolute;
   top: 119px;
   left: 862px;
   height: 710px;
-  width: 120px;
-  clip-path: polygon(70% 0, 100% 0%, 100% 100%, 0% 100%);
+  width: 150px;
+  clip-path: polygon(55% 0, 17% 0%, 100% 100%, 0% 100%);
   z-index: -3;
 }
 .footer-6:hover {
 background-color: rgb(199, 166, 58);
+}
+
+.footer-7 {
+  
+  background: linear-gradient( rgb(37, 24, 3) 72%, rgba(216, 133, 10));
+  position: absolute;
+  top: 119px;
+  left: 930px;
+  height: 710px;
+  width: 202px;
+  clip-path: polygon(0 0, 0% 0%, 100% 100%, 34% 100%);
+  z-index: -3;
+}
+.footer-7:hover {
+background-color: rgb(199, 166, 58);
+}
+.footer-8 {
+  
+  background: linear-gradient( rgb(29, 22, 4) 72%, rgba(206, 158, 26));
+  position: absolute;
+  top: 119px;
+  left: 930px;
+  height: 710px;
+  width: 330px;
+  clip-path: polygon(0 0, 0% 0%, 100% 100%, 61% 100%);
+  z-index: -3;
+}
+.footer-8:hover {
+background-color: rgb(199, 166, 58);
+}
+.footer-9 {
+  
+  background: linear-gradient( rgb(19, 22, 4) 72%, rgb(199, 166, 58));
+  position: absolute;
+  top: 119px;
+  left: 930px;
+  height: 710px;
+  width: 463px;
+  clip-path: polygon(0 0, 0% 0%, 100% 100%, 71% 100%);
+  z-index: -3;
+}
+.footer-9:hover {
+background-color: rgb(199, 166, 58);
+}
+
+.footer-10 {
+  
+  background: linear-gradient( rgb(26, 22, 5) 72%, rgba(223, 193, 27));
+  position: absolute;
+  top: 119px;
+  left: 929px;
+  height: 710px;
+  width: 595px;
+  clip-path: polygon(0 0, 0% 0%, 100% 100%, 78% 100%);
+  z-index: -3;
+}
+.footer-10:hover {
+background-color: rgb(199, 166, 58);
+}
+
+.footer-11 {
+  
+  background: linear-gradient( rgb(26, 22, 5) 72%, rgb(168, 192, 30));
+  position: absolute;
+  top: 119px;
+  left: 930px;
+  height: 710px;
+  width: 724px;
+  clip-path: polygon(0 0, 0% 0%, 100% 100%, 82% 100%);
+  z-index: -3;
+}
+.footer-11:hover {
+background-color: rgb(199, 166, 58);
+}
+.marko {
+  position: absolute;
+  height: 381px;
+  width: 798px;
+  top: 0px;
+  left: 532px;
+  z-index: 9999;
+  background-color: rgba(52, 18, 63, 0.4);
+}
+
+.final_square-1 {
+  position: absolute;
+  top: 829px;
+  left: 210px;
+  width: 130px;
+  height: 100px;
+  background: linear-gradient( rgb(147, 168, 28) 1%, rgb(19, 22, 4));
+  
+}
+.final_square-2 {
+  position: absolute;
+  top: 829px;
+  left: 340px;
+  width: 130px;
+  height: 100px;
+  background: linear-gradient( rgb(204, 177, 26) 1%, rgb(27, 24, 4));
+  
+}
+
+.final_square-3 {
+  position: absolute;
+  top: 829px;
+  left: 470px;
+  width: 130px;
+  height: 100px;
+  background: linear-gradient( rgb(184, 153, 54) 1%, rgb(19, 16, 5));
+  
+}
+.final_square-4 {
+  position: absolute;
+  top: 829px;
+  left: 600px;
+  width: 130px;
+  height: 100px;
+  background: linear-gradient( rgb(196, 150, 26) 1%, rgb(20, 16, 3));
+  
+}
+
+.final_square-5 {
+  position: absolute;
+  top: 829px;
+  left: 730px;
+  width: 132px;
+  height: 100px;
+  background: linear-gradient( rgb(182, 112, 8) 1%, rgb(22, 14, 1));
+  
+}
+.final_square-6 {
+  position: absolute;
+  top: 829px;
+  left: 862px;
+  width: 135px;
+  height: 100px;
+  background: linear-gradient( rgb(119, 84, 32) 1%, rgb(22, 14, 1));
+  
+}
+.final_square-7 {
+  position: absolute;
+  top: 829px;
+  left: 997px;
+  width: 135px;
+  height: 100px;
+  background: linear-gradient( rgb(190, 118, 9) 1%, rgb(17, 10, 1));
+  
+}
+.final_square-8 {
+  position: absolute;
+  top: 829px;
+  left: 1131px;
+  width: 128px;
+  height: 100px;
+  background: linear-gradient( rgba(206, 158, 26) 1%, rgb(20, 16, 2));
+  
+}
+
+.final_square-9 {
+  position: absolute;
+  top: 829px;
+  left: 1259px;
+  width: 133px;
+  height: 100px;
+  background: linear-gradient( rgb(192, 160, 56) 1%, rgb(17, 14, 5));
+  
+}
+.final_square-10 {
+  position: absolute;
+  top: 829px;
+  left: 1392px;
+  width: 133px;
+  height: 100px;
+  background: linear-gradient( rgb(204, 177, 26) 1%, rgb(27, 24, 4));
+  
+}
+
+.final_square-11 {
+  position: absolute;
+  top: 829px;
+  left: 1522px;
+  width: 133px;
+  height: 100px;
+  background: linear-gradient( rgb(147, 168, 28) 1%, rgb(19, 22, 4));
+  
 }
