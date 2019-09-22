@@ -16,7 +16,7 @@
     z-index: 1;
 }
 .background-b1 {
-    background-color: rgba(197, 144, 247,0.8);
+    background-color: rgba(159, 94, 221, 0.8);
     position: absolute;
     top: 0%;
     right: 405px;
@@ -35,7 +35,7 @@
     left: 302px;
     height: 5rem;
     width: 5rem;
-    background-color: #6b7ca0;
+    background-color: #6B7CA0;
     -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%, 0% 100%);
     
   }
@@ -52,72 +52,11 @@
     left: 382px;
     height: 5rem;
     width:1200px;
-    background-color: #748cb8;
+    background-color: #6B7CA0;
     -webkit-clip-path: polygon(0 0%, 95% 0, 100% 100%, 0% 100%);
     z-index: 0;
   }
-  .mesure_one {
-    display: flex;
-    position: absolute;
-    top: 559px;
-    left: 383px;
-    height: 5rem;
-    width:1138px;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    z-index: 9999;
-  }
-
-  .square_2 {
-    height: 100px;
-    width: 100px;
-    border-right: 1px solid black;
-    background-color: rgba(199, 180, 180,0.4)
-  }
-  .square_3 {
-    height: 100px;
-    width: 100px;
-    border-right: 1px solid black;
-    background-color: rgba(156, 86, 86, 0.4)
-  }
   
-
-  .mesures_second {
-    position: absolute;
-    top: 559px;
-    left: 383px;
-    height: 5rem;
-    width:1138px;
-    background-color: #ac8048;
-    
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    z-index: 9997;
-  }
-  .decimal {
-    display: inline-block;
-    width: 6px;
-    height: 100px;
-    margin-right: 0px;
-    background-color: rgb(149, 208, 231)
-  }
-  
-  
-
-  .square {
-    min-height: 100px;
-    min-width: 100px;
-    background-color: #060f02;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    z-index: 9999;
-  }
-  .square_1 {
-    
-    min-height: 100px;
-    min-width: 100px;
-    background-color: #7787e2;
-    border-right:1px solid black;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    z-index: 9999;
-  }
   .center {
        
     margin-right: auto;
@@ -127,15 +66,15 @@
     left: 903px;
     height: 50px;
     width:50px;
-    background-color: rgba(151, 109, 16, 0.7);
+    background-color: rgba(189, 175, 145, 0.7);
     -webkit-clip-path:circle(40%);
     z-index: 9999;
   }
-  .foot {
-      height: 500px;
-  }
+.foot {
+    height: 500px;
+}
 .soil_left {
-    background-color: rgba(151, 158, 124,0.7);
+    background-color: rgba(206, 238, 28, 0.76);
     position: absolute;
     top: 119px;
     left: 380px;
@@ -144,7 +83,7 @@
     clip-path: polygon(100% 0, 100% 0%, 19% 100%, 0% 100%);
 }
 .soil_left-1 {
-  background-color: rgba(185, 218, 55, 0.7);
+  background-color: rgba(238, 234, 28, 0.76);
   position: absolute;
   top: 119px;
   left: 484px;
@@ -154,7 +93,7 @@
   
 }
 .soil_left-2 {
-  background-color: rgba(41, 207, 152, 0.7);
+  background-color: rgba(238, 206, 28, 0.76);
   position: absolute;
   top: 119px;
   left: 582px;
@@ -163,7 +102,7 @@
   clip-path: polygon(100% 0, 100% 0%,28.5% 100%, 0% 100%);
 }
 .soil_left-3 {
-  background-color: rgba(145, 173, 67, 0.767);
+  background-color: rgba(238, 182, 28, 0.76);
   position: absolute;
   top: 119px;
   left: 680px;
@@ -172,7 +111,7 @@
   clip-path: polygon(100% 0, 100% 0%,41% 100%, 0% 100%);
 }
 .soil_left-4 {
-  background-color: rgba(64, 214, 207, 0.767);
+  background-color: rgba(238, 171, 28, 0.76);
   position: absolute;
   top: 119px;
   left: 781px;
@@ -181,7 +120,7 @@
   clip-path: polygon(100% 0, 100% 0%,68% 100%, 0% 100%);
 }
 .soil_center {
-  background-color: rgba(180, 163, 207, 0.767);
+  background-color: rgba(238, 154, 28, 0.76);
   position: absolute;
   top: 119px;
   left: 881px;
@@ -190,17 +129,17 @@
   clip-path: polygon( 96% 0, 100% 100%, 0% 100%);
 }
 .soil_center_right {
-  background-color: rgba(111, 168, 156, 0.767);
+  background-color: rgba(235, 152, 29, 0.76);
   position: absolute;
   top: 119px;
-  left: 929px;
+  left: 930px;
   height: 440px;
-  width: 55px;
+  width: 53px;
   clip-path: polygon(100% 0, 100% 100%, 0% 100%);
   transform: scaleX(-1);
 }
 .soil_right {
-  background-color: rgba(224, 127, 15, 0.7);
+  background-color: rgba(206, 238, 28, 0.76);
   position: absolute;
   top: 120px;
   left: 930px;
@@ -210,27 +149,27 @@
   transform: scaleX(-1);
 }
 .soil_right-1 {
-  background-color: rgba(185, 218, 55, 0.7);
+  background-color: rgba(238, 234, 28, 0.76);
   position: absolute;
   top: 110px;
   left: 918px;
   height: 449px;
-  width: 467px;
+  width: 468px;
   clip-path: polygon(100% 0, 100% 0%,22% 100%, 0% 100%);
   transform: scaleX(-1);
 }
 .soil_right-2 {
-  background-color: rgba(41, 207, 152, 0.7);
+  background-color: rgba(238, 206, 28, 0.76);
   position: absolute;
   top: 119px;
   left: 930px;
   height: 440px;
-  width: 352px;
+  width: 353px;
   clip-path: polygon(100% 0, 100% 0%,28.5% 100%, 0% 100%);
   transform: scaleX(-1);
 }
 .soil_right-3 {
-  background-color: rgba(145, 173, 67, 0.767);
+  background-color: rgba(238, 182, 28, 0.76);
   position: absolute;
   top: 119px;
   left: 930px;
@@ -240,12 +179,78 @@
   transform: scaleX(-1);
 }
 .soil_right-4 {
-  background-color: rgba(64, 214, 207, 0.767);
+  background-color: rgba(238, 171, 28, 0.76);
   position: absolute;
   top: 119px;
-  left: 930px;
+  left: 929px;
   height: 440px;
-  width: 155px;
+  width: 154px;
   clip-path: polygon(100% 0, 100% 0%,65% 100%, 0% 100%);
   transform: scaleX(-1);
+}
+
+
+
+
+.mesure_one {
+  display: flex;
+  position: absolute;
+  top: 559px;
+  left: 383px;
+  height: 5rem;
+  width:1138px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  z-index: 9999;
+}
+
+.square_2 {
+  height: 100px;
+  width: 100px;
+  border-right: 1px solid black;
+  background-color: rgba(199, 180, 180,0.4)
+}
+.square_3 {
+  height: 100px;
+  width: 100px;
+  border-right: 1px solid black;
+  background-color: rgba(156, 86, 86, 0.4)
+}
+
+
+.mesures_second {
+  position: absolute;
+  top: 559px;
+  left: 383px;
+  height: 5rem;
+  width:1138px;
+  background-color: #ac8048;
+  
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  z-index: 9997;
+}
+.decimal {
+  display: inline-block;
+  width: 6px;
+  height: 100px;
+  margin-right: 0px;
+  background-color: rgb(149, 208, 231)
+}
+
+
+
+.square {
+  min-height: 100px;
+  min-width: 100px;
+  background-color: #060f02;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  z-index: 9999;
+}
+.square_1 {
+  
+  min-height: 100px;
+  min-width: 100px;
+  background-color: #7787e2;
+  border-right:1px solid black;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  z-index: 9999;
 }
