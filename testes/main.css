@@ -578,7 +578,7 @@ background-color: rgba(116, 212, 38, 0.76);
 }
 
 .footer-2 {
-  background: linear-gradient(rgb(19, 22, 4) 72%, rgba(223, 193, 27));
+  background: linear-gradient(rgb(26, 22, 5) 72%, rgba(223, 193, 27));
   position: absolute;
   top: 119px;
   left: 339px;
@@ -608,7 +608,7 @@ background-color: rgb(199, 166, 58);
 
 .footer-4 {
   
-  background: linear-gradient( #333303c2 72%, rgba(206, 158, 26));
+  background: linear-gradient( rgb(29, 22, 4) 72%, rgba(206, 158, 26));
   position: absolute;
   top: 119px;
   left: 600px;
@@ -618,5 +618,35 @@ background-color: rgb(199, 166, 58);
   z-index: -3;
 }
 .footer-4:hover {
+background-color: rgb(199, 166, 58);
+}
+
+.footer-5 {
+  
+  background: linear-gradient( rgb(36, 24, 8) 72%, rgba(233, 160, 51));
+  position: absolute;
+  top: 119px;
+  left: 731px;
+  height: 710px;
+  width: 212px;
+  clip-path: polygon(100% 0, 100% 0%, 62% 100%, 0% 100%);
+  z-index: -3;
+}
+.footer-5:hover {
+background-color: rgb(199, 166, 58);
+}
+
+.footer-6 {
+  
+  background: linear-gradient( rgb(36, 24, 8) 72%, rgb(129, 92, 35));
+  position: absolute;
+  top: 119px;
+  left: 862px;
+  height: 710px;
+  width: 120px;
+  clip-path: polygon(70% 0, 100% 0%, 100% 100%, 0% 100%);
+  z-index: -3;
+}
+.footer-6:hover {
 background-color: rgb(199, 166, 58);
 }
