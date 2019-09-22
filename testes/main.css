@@ -5,64 +5,44 @@ body {
   height: 920px;
 }
 
-.back_all {
-  position: absolute;
-  width: 1300px;
-  height: 709px;
-  top: 80px;
-  left: 282px;
-  background: linear-gradient(rgb(4, 4, 41) 10%, rgb(58, 55, 75));
-  z-index: -3;
-}
 
 .background-a1 {
     background: linear-gradient(rgba(212, 108, 108, 0.7) 70%, rgba(163, 38, 38, 0.7));
     position: absolute;
     top: 0%;
     left: 382px;
-    height: 381px;
+    height: 408px;
     width: 1100px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     z-index: 1;
 }
 
 
-
-.block_center {
-  background-color: rgba(172, 123, 123, 0.2);
-  position: absolute;
-  top: 381px;
-  left: 382px;
-  height:98px;
-  min-width: 1100px;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-  z-index: 9999;
-}
   .col-izq {
     position: absolute;
     width: 100px;
-    height: 479px;
+    height: 408px;
     top: 0px;
     left: 382px;
     background-color: rgba(134, 68, 68, 0.5);
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     z-index: 0;
   }
 
   .col-der {
     position: absolute;
     width: 100px;
-    height: 479px;
+    height: 408px;
     top: 0px;
     left: 1380px;
     background-color: rgba(134, 68, 68, 0.5);
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     transform: scaleX(-1);
     z-index: 0;
   }
 
   .block-center_short {
-    background-color: rgba(209, 63, 19, 0.8);
+    background-color: #A85656;
     position: absolute;
     top: 407px;
     left: 441px;
@@ -148,6 +128,7 @@ body {
 }
 
 .back_lines-1 {
+  background: linear-gradient(rgb(136, 52, 14) 80%,rgb(238, 95, 28) );
   background-color: rgb(238, 95, 28);
   position: absolute;
   top: 119px;
@@ -158,7 +139,7 @@ body {
   z-index: -4;
 }
 .back_lines-2 {
-  background-color: rgb(184, 75, 24);
+  background: linear-gradient(rgb(99, 40, 12) 80%,rgb(184, 75, 24) );
   position: absolute;
   top: 119px;
   left: -226px;
@@ -168,7 +149,8 @@ body {
   z-index: -4;
 }
 .back_lines-3 {
-  background-color: rgb(238, 95, 28);
+  background: linear-gradient(rgb(136, 52, 14) 80%,rgb(238, 95, 28) );
+  
   position: absolute;
   top: 119px;
   right: -33px;
@@ -179,7 +161,7 @@ body {
   transform: scaleX(-1);
 }
 .back_lines-4 {
-  background-color: rgb(184, 75, 24);
+  background: linear-gradient(115deg, rgb(99, 40, 12) 50%,rgb(184, 75, 24) );
   position: absolute;
   top: 119px;
   right: -194px;
@@ -190,7 +172,7 @@ body {
   transform: scaleX(-1);
 }
 .back_lines-5 {
-  background-color: rgb(148, 65, 26);
+  background: linear-gradient(115deg, #943c13 5%,#000000);
   position: absolute;
   top: 119px;
   left: -394px;
@@ -324,6 +306,51 @@ body {
   z-index: -4;
 
 }
+
+.back_lines-17 {
+
+  background: linear-gradient(rgb(46, 30, 6) 90%,rgba(230, 151, 33,1) );
+  
+  position: absolute;
+  top: 119px;
+  left: 930px;
+  height: 850px;
+  width: 344px;
+  clip-path: polygon(0% 0, 0% 0%, 100% 100%, 61% 100%);
+  z-index: -4;
+
+}
+.back_lines-18 {
+
+  background: linear-gradient(rgb(46, 30, 6) 90%,rgba(230, 151, 33,1) );
+  
+  position: absolute;
+  top: 119px;
+  left: 930px;
+  height: 850px;
+  width: 484px;
+  clip-path: polygon(0% 0, 0% 0%, 100% 100%, 61% 100%);
+  z-index: -4;
+
+}
+
+.z_ {
+  z-index: 6;
+}
+.back_lines-19 {
+
+  background: linear-gradient(rgb(46, 30, 6) 90%,rgba(230, 151, 33,1) );
+  
+  position: absolute;
+  top: 119px;
+  left: 930px;
+  height: 850px;
+  width: 622px;
+  clip-path: polygon(0% 0, 0% 0%, 100% 100%, 77% 100%);
+  z-index: -4;
+
+}
+
 .z_ {
   z-index: 6;
 }
@@ -934,7 +961,7 @@ background-color: rgb(199, 166, 58);
 }
 .marko {
   position: absolute;
-  height: 381px;
+  height: 408px;
   width: 798px;
   top: 0px;
   left: 532px;
