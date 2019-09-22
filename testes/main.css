@@ -135,8 +135,13 @@ body {
     background-color: rgba(238, 154, 27, 0.7);
   }
 
-.foot {
+.footo {
+    position: relative;
+    top: 1000px;
     height: 500px;
+    width: 100%;
+    left: 0;
+    background-color: #030927;
 }
 
 .back_lines-1 {
@@ -180,6 +185,117 @@ body {
   clip-path: polygon(100% 0, 100% 0%, 14% 100%, 0% 100%);
   z-index: -4;
   transform: scaleX(-1);
+}
+.back_lines-5 {
+  background-color: rgb(148, 65, 26);
+  position: absolute;
+  top: 119px;
+  left: -394px;
+  height: 850px;
+  width: 1320px;
+  clip-path: polygon(100% 0, 100% 0%, 14% 100%, 0% 100%);
+  z-index: -4;
+}
+
+.back_lines-6 {
+  background-color: rgb(148, 65, 26);
+  position: absolute;
+  top: 119px;
+  right: -368px;
+  height: 850px;
+  width: 1320px;
+  clip-path: polygon(100% 0, 100% 0%, 14% 100%, 0% 100%);
+  z-index: -4;
+  transform: scaleX(-1);
+}
+
+.back_lines-7 {
+  background-color: rgb(226, 129, 17);
+  position: absolute;
+  top: 119px;
+  left: 70px;
+  height: 850px;
+  width: 852px;
+  clip-path: polygon(100% 0, 100% 0%, 12.5% 100%, 0% 100%);
+  z-index: -4;
+}
+.back_lines-8 {
+  background-color: rgb(226, 129, 17);
+  position: absolute;
+  top: 119px;
+  right: 107px;
+  height: 850px;
+  width: 852px;
+  clip-path: polygon(100% 0, 100% 0%, 12.5% 100%, 0% 100%);
+  z-index: -4;
+  transform: scaleX(-1);
+}
+.back_lines-9 {
+  background-color: rgb(146, 113, 75);
+  position: absolute;
+  top: 119px;
+  right: 209px;
+  height: 850px;
+  width: 852px;
+  clip-path: polygon(100% 0, 100% 0%, 16.2% 100%, 0% 100%);
+  z-index: -4;
+  transform: scaleX(-1);
+}
+
+.back_lines-10 {
+  background: linear-gradient(rgb(34, 23, 6) 90%,rgb(240, 163, 47) );
+  
+  position: absolute;
+  top: 119px;
+  left: 174px;
+  height: 850px;
+  width: 800px;
+  clip-path: polygon(100% 0, 100% 0%, 16.8% 100%, 0% 100%);
+  z-index: -4;
+}
+.back_lines-11 {
+  background: linear-gradient(rgb(34, 23, 6) 90%,rgb(238, 158, 38) );
+  
+  position: absolute;
+  top: 119px;
+  left: 308px;
+  height: 850px;
+  width: 640px;
+  clip-path: polygon(100% 0, 100% 0%, 21.5% 100%, 0% 100%);
+  z-index: -4;
+}
+.back_lines-12 {
+  background: linear-gradient(rgb(34, 23, 6) 90%,rgb(238, 156, 34) );
+  
+  position: absolute;
+  top: 119px;
+  left: 445px;
+  height: 850px;
+  width: 510px;
+  clip-path: polygon(100% 0, 100% 0%, 27% 100%, 0% 100%);
+  z-index: -4;
+}
+.back_lines-13 {
+  background: linear-gradient(rgb(34, 23, 6) 90%,rgb(238, 156, 34) );
+  
+  position: absolute;
+  top: 119px;
+  left: 582px;
+  height: 850px;
+  width: 380px;
+  clip-path: polygon(100% 0, 100% 0%, 36.2% 100%, 0% 100%);
+  z-index: -4;
+}
+.back_lines-14 {
+  background: linear-gradient(rgb(34, 23, 6) 90%,rgb(238, 156, 34) );
+  
+  position: absolute;
+  top: 119px;
+  left: 718px;
+  height: 850px;
+  width: 220px;
+  clip-path: polygon(100% 0, 100% 0%, 63.5% 100%, 0% 100%);
+  z-index: -4;
 }
 
 .z_ {
