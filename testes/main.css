@@ -1,5 +1,5 @@
 body {
-  background-image: url(bac.png);
+  background: black;
   /* background: linear-gradient(#da6b58, #9198e5 );*/
   height: 920px;
 }
@@ -93,11 +93,11 @@ body {
     margin-left: auto;
     position: absolute;
     top: 479px;
-    left: 1382px;
+    left: 1390px;
     height: 5rem;
     width: 198px;
     background-color: rgb(134, 68, 68);
-    -webkit-clip-path: polygon(0 0, 50% 0, 100% 100%, 50% 100%);
+    -webkit-clip-path: polygon(0 0, 46% 0, 97% 100%, 47% 100%);
     z-index: 9999;
     
   }
@@ -174,6 +174,7 @@ body {
   width: 253px;
   clip-path: polygon(100% 0, 100% 0%,40% 100%, 0% 100%);
 }
+
 
 .soil_left-3:hover, .soil_right-3:hover {
   background-color: rgba(201, 153, 24, 0.76);
@@ -405,12 +406,19 @@ body {
   top: 559px;
   left: 582px;
   z-index: 9999;
-  background: linear-gradient(rgb(204, 167, 46) 2%, #333303c2);
+  background: linear-gradient(rgb(167, 139, 49) 2%, rgb(54, 46, 17));
 }
 
 .rectangle-3:hover {
   background: linear-gradient(rgba(224, 196, 36, 0.86) 5%, #272701c2);
 }
+
+/*background: linear-gradient(rgb(167, 139, 49) 2%, rgb(54, 46, 17));
+}
+
+.rectangle-9:hover {
+  background: linear-gradient(rgba(224, 196, 36, 0.86) 5%, #272701c2);
+}*/
 
 .rectangle-4 {
   position: absolute;
@@ -489,7 +497,7 @@ body {
   top: 559px;
   left:1182px;
   z-index: 9999;
-  background: linear-gradient(rgb(204, 167, 46) 2%, #333303c2);
+  background: linear-gradient(rgb(167, 139, 49) 2%, rgb(54, 46, 17));
 }
 
 .rectangle-9:hover {
@@ -511,23 +519,24 @@ body {
 }
 .rectangle-11 {
   position: absolute;
-  width: 99px;
+  width: 108px;
   height: 100px;
   top: 559px;
   left:1382px;
   z-index: 9999;
-  background: linear-gradient(rgba(179, 206, 25, 0.76) 2%, rgba(46, 53, 6, 0.76));
+  background: linear-gradient(rgba(145, 167, 20, 0.76) 2%, rgba(46, 53, 6, 0.76));
 }
 
 .rectangle-11:hover {
-  background: linear-gradient(rgba(206, 238, 28, 0.76) 5%, rgba(27, 31, 4, 0.76));
+  background: linear-gradient(rgba(167, 192, 23, 0.76) 5%, rgba(27, 31, 4, 0.76));
 }
+
 .rectangle-12 {
   position: absolute;
   width: 100px;
   height: 150px;
   top: 559px;
-  left: 1480px;
+  left: 1483px;
   z-index: 9999;
   background: linear-gradient(#804040 2%, #180c0c);
 }
