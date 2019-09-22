@@ -6,24 +6,37 @@
 }
 
 .background-a1 {
-    background-color: rgba(137, 78, 192, 0.8);
+    background-color: rgb(92, 206, 39);
     position: absolute;
     top: 0%;
-    left: 379px;
+    left: 382px;
     height: 381px;
-    width: 550px;
+    width: 1100px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     z-index: 1;
 }
+
 .background-b1 {
-    background-color: rgba(159, 94, 221, 0.8);
-    position: absolute;
-    top: 0%;
-    right: 405px;
-    height: 381px;
-    width: 569px;;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    z-index: 1;
+  background-color: rgb(92, 206, 39);
+  position: absolute;
+  top: 0%;
+  right: 405px;
+  height: 381px;
+  width: 550px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  z-index: 1;
+}
+
+
+.block_center {
+  background-color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 381px;
+  right: 405px;
+  height:98px;
+  width: 1115px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  z-index: 1;
 }
   .carpet {
     padding-right: 15px;
@@ -73,6 +86,7 @@
 .foot {
     height: 500px;
 }
+
 .soil_left {
     background-color: rgba(206, 238, 28, 0.76);
     position: absolute;
@@ -82,6 +96,9 @@
     width: 550px;;
     clip-path: polygon(100% 0, 100% 0%, 19% 100%, 0% 100%);
 }
+.soil_left:hover, .soil_right:hover {
+  background-color: rgba(170, 212, 16, 0.76);
+}
 .soil_left-1 {
   background-color: rgba(238, 234, 28, 0.76);
   position: absolute;
@@ -90,8 +107,13 @@
   height: 440px;
   width: 446px;
   clip-path: polygon(100% 0, 100% 0%,22% 100%, 0% 100%);
-  
 }
+
+.soil_left-1:hover, .soil_right-1:hover {
+  background-color: rgba(214, 211, 9, 0.76);
+}
+
+
 .soil_left-2 {
   background-color: rgba(238, 206, 28, 0.76);
   position: absolute;
@@ -101,8 +123,13 @@
   width: 348px;
   clip-path: polygon(100% 0, 100% 0%,28.5% 100%, 0% 100%);
 }
+
+.soil_left-2:hover, .soil_right-2:hover {
+  background-color: rgba(214, 186, 25, 0.76);
+}
+
 .soil_left-3 {
-  background-color: rgba(238, 182, 28, 0.76);
+  background-color: rgba(226, 173, 28, 0.76);
   position: absolute;
   top: 119px;
   left: 680px;
@@ -110,6 +137,11 @@
   width: 250px;
   clip-path: polygon(100% 0, 100% 0%,41% 100%, 0% 100%);
 }
+
+.soil_left-3:hover, .soil_right-3:hover {
+  background-color: rgba(201, 153, 24, 0.76);
+}
+
 .soil_left-4 {
   background-color: rgba(238, 171, 28, 0.76);
   position: absolute;
@@ -119,6 +151,11 @@
   width: 148px;
   clip-path: polygon(100% 0, 100% 0%,68% 100%, 0% 100%);
 }
+
+.soil_left-4:hover, .soil_right-4:hover {
+  background-color: rgba(221, 160, 27, 0.76);
+}
+
 .soil_center {
   background-color: rgba(238, 154, 28, 0.76);
   position: absolute;
@@ -128,6 +165,11 @@
   width: 50px;
   clip-path: polygon( 96% 0, 100% 100%, 0% 100%);
 }
+
+.soil_center:hover, .soil_center_right:hover  {
+  background-color: rgba(218, 141, 26, 0.76);
+}
+
 .soil_center_right {
   background-color: rgba(235, 152, 29, 0.76);
   position: absolute;
