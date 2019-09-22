@@ -428,13 +428,24 @@ body {
   position: absolute;
   width: 910px;
   height: 43px;
-  top: 436px;
+  top: 437px;
   left: 479px;
-  clip-path: polygon(6% 0, 94% 0, 100% 100%, 0 100%);
+  clip-path: polygon(5.9% 0, 94.2% 0, 100% 100%, 0 100%);
   z-index: 99999;
+  background: linear-gradient(rgba(78, 57, 17, 0.8) 10%,rgba(218, 179, 132, .1) );
   background-color: rgba(70, 66, 61, 0.1);
 }
-
+.hor_line_2 {
+  position: absolute;
+  width: 1264px;
+  height: 80px;
+  top: 660px;
+  left: 300px;
+  clip-path: polygon(6.5% 0, 93.5% 0, 100% 100%, 0 100%);
+  z-index: 99999;
+  background: linear-gradient(rgba(10, 7, 1, 0.3) 50%,rgba(124, 80, 27, 0.3) );
+  
+}
 
 .soil_center_right {
   background-color: rgba(235, 152, 29);
@@ -861,18 +872,18 @@ background-color: rgb(199, 166, 58);
   height: 408px;
   width: 798px;
   top: -1px;
-  left: 532px;
+  left: 535px;
   z-index: 9999;
-  background-color: rgba(19, 3, 0, 0.6);
+  background-color: rgba(19, 3, 0, .7);
 }
 
 .back_marko {
   position: absolute;
   height: 381px;
   width: 798px;
-  top: 0px;
-  left: 532px;
-  background-color: white;
+  top: 28px;
+  left: 535px;
+  background-color: rgb(65, 10, 110);
   z-index: 1;
 }
 
@@ -1005,9 +1016,23 @@ background-color: rgb(199, 166, 58);
   width: 300px;
   height: 550px;
   clip-path: polygon(0 0%, 100% 6%, 100% 67%, 0 100%);
-  background-color: rgb(81, 255, 0);
+  background: linear-gradient(rgb(4, 65, 4) 3%,rgba(12, 156, 12, 1) 20%, rgb(16, 214, 16) );
   z-index: 9999;
 }
+
+.screen_right {
+  position: absolute;
+  top: 36px;
+  right: 190px;
+  width: 300px;
+  height: 550px;
+  clip-path: polygon(0 0%, 100% 6%, 100% 67%, 0 100%);
+  /*background-color: rgb(81, 255, 0);*/
+  background: linear-gradient(rgb(4, 65, 4) 3%,rgba(12, 156, 12, 1) 20%, rgb(16, 214, 16) );
+  z-index: 9999;
+  transform: scaleX(-1);
+}
+
 .footo {
   position: relative;
   top: 1000px;
