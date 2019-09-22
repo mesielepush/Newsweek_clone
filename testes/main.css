@@ -229,15 +229,17 @@ body {
 }
 
 .back_lines-10 {
-  background: linear-gradient(200deg,rgb(56, 32, 3) 1%,rgb(230, 142, 42) );
+  background: linear-gradient(100deg,rgb(56, 32, 3) 1%,rgb(230, 142, 42) );
   
   position: absolute;
-  top: 929px;
-  left: 174px;
+  top: 928px;
+  left: 168px;
   height: 41px;
   width: 170px;
   clip-path: polygon(0% 0, 76% 0%, 100% 100%, 0% 100%);
   z-index: -4;
+  transform: scaleX(-1);
+  position: absolute;
 }
 .back_lines-11 {
   background: linear-gradient(rgb(34, 23, 6) 90%,rgb(238, 158, 38) );
