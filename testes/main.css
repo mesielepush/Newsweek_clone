@@ -6,7 +6,7 @@
 }
 
 .background-a1 {
-    background-color: rgba(137, 78, 192, 0.7);
+    background-color: rgba(137, 78, 192, 0.8);
     position: absolute;
     top: 0%;
     left: 379px;
@@ -16,10 +16,10 @@
     z-index: 1;
 }
 .background-b1 {
-    background-color: rgba(197, 144, 247,0.7);
+    background-color: rgba(197, 144, 247,0.8);
     position: absolute;
     top: 0%;
-    right: 395px;
+    right: 405px;
     height: 381px;
     width: 569px;;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -59,8 +59,8 @@
   .mesure_one {
     display: flex;
     position: absolute;
-    top: 564px;
-    left: 378px;
+    top: 559px;
+    left: 383px;
     height: 5rem;
     width:1138px;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
@@ -83,8 +83,8 @@
 
   .mesures_second {
     position: absolute;
-    top: 564px;
-    left: 378px;
+    top: 559px;
+    left: 383px;
     height: 5rem;
     width:1138px;
     background-color: #ac8048;
@@ -138,7 +138,7 @@
     background-color: rgba(151, 158, 124,0.7);
     position: absolute;
     top: 119px;
-    left: 377px;
+    left: 380px;
     height: 440px;
     width: 550px;;
     clip-path: polygon(100% 0, 100% 0%, 19% 100%, 0% 100%);
@@ -147,7 +147,7 @@
   background-color: rgba(185, 218, 55, 0.7);
   position: absolute;
   top: 119px;
-  left: 481px;
+  left: 484px;
   height: 440px;
   width: 446px;
   clip-path: polygon(100% 0, 100% 0%,22% 100%, 0% 100%);
@@ -157,7 +157,7 @@
   background-color: rgba(41, 207, 152, 0.7);
   position: absolute;
   top: 119px;
-  left: 579px;
+  left: 582px;
   height: 440px;
   width: 348px;
   clip-path: polygon(100% 0, 100% 0%,28.5% 100%, 0% 100%);
@@ -166,7 +166,7 @@
   background-color: rgba(145, 173, 67, 0.767);
   position: absolute;
   top: 119px;
-  left: 677px;
+  left: 680px;
   height: 440px;
   width: 250px;
   clip-path: polygon(100% 0, 100% 0%,41% 100%, 0% 100%);
@@ -175,26 +175,77 @@
   background-color: rgba(64, 214, 207, 0.767);
   position: absolute;
   top: 119px;
-  left: 778px;
+  left: 781px;
   height: 440px;
   width: 148px;
   clip-path: polygon(100% 0, 100% 0%,68% 100%, 0% 100%);
 }
 .soil_center {
-  background-color: rgba(107, 61, 182, 0.767);
+  background-color: rgba(180, 163, 207, 0.767);
   position: absolute;
   top: 119px;
-  left: 878px;
+  left: 881px;
   height: 440px;
-  width: 48px;
-  clip-path: polygon( 100% 0, 100% 100%, 0% 100%);
+  width: 50px;
+  clip-path: polygon( 96% 0, 100% 100%, 0% 100%);
 }
 .soil_center_right {
-  background-color: rgba(107, 61, 182, 0.767);
+  background-color: rgba(111, 168, 156, 0.767);
   position: absolute;
   top: 119px;
-  left: 878px;
+  left: 929px;
   height: 440px;
-  width: 48px;
-  clip-path: polygon( 100% 0, 100% 100%, 0% 100%);
+  width: 55px;
+  clip-path: polygon(100% 0, 100% 100%, 0% 100%);
+  transform: scaleX(-1);
+}
+.soil_right {
+  background-color: rgba(224, 127, 15, 0.7);
+  position: absolute;
+  top: 120px;
+  left: 930px;
+  height: 445px;
+  width: 560px;
+  clip-path: polygon(100% 0, 100% 0%, 17.5% 100%, 0% 100%);
+  transform: scaleX(-1);
+}
+.soil_right-1 {
+  background-color: rgba(185, 218, 55, 0.7);
+  position: absolute;
+  top: 110px;
+  left: 918px;
+  height: 449px;
+  width: 467px;
+  clip-path: polygon(100% 0, 100% 0%,22% 100%, 0% 100%);
+  transform: scaleX(-1);
+}
+.soil_right-2 {
+  background-color: rgba(41, 207, 152, 0.7);
+  position: absolute;
+  top: 119px;
+  left: 930px;
+  height: 440px;
+  width: 352px;
+  clip-path: polygon(100% 0, 100% 0%,28.5% 100%, 0% 100%);
+  transform: scaleX(-1);
+}
+.soil_right-3 {
+  background-color: rgba(145, 173, 67, 0.767);
+  position: absolute;
+  top: 119px;
+  left: 930px;
+  height: 440px;
+  width: 254px;
+  clip-path: polygon(100% 0, 100% 0%,40% 100%, 0% 100%);
+  transform: scaleX(-1);
+}
+.soil_right-4 {
+  background-color: rgba(64, 214, 207, 0.767);
+  position: absolute;
+  top: 119px;
+  left: 930px;
+  height: 440px;
+  width: 155px;
+  clip-path: polygon(100% 0, 100% 0%,65% 100%, 0% 100%);
+  transform: scaleX(-1);
 }
