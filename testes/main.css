@@ -253,7 +253,7 @@ body {
   z-index: -4;
 }
 .back_lines-12 {
-  background: linear-gradient(rgb(34, 23, 6) 90%,rgb(238, 156, 34) );
+  background: linear-gradient(80deg,rgb(56, 32, 3) 1%,rgb(230, 142, 42) );
   
   position: absolute;
   top: 119px;
@@ -262,6 +262,7 @@ body {
   width: 510px;
   clip-path: polygon(100% 0, 100% 0%, 27% 100%, 0% 100%);
   z-index: -4;
+  
 }
 .back_lines-13 {
   background: linear-gradient(rgb(34, 23, 6) 90%,rgb(238, 156, 34) );
@@ -286,15 +287,15 @@ body {
   z-index: -4;
 }
 .back_lines-15 {
-  background: linear-gradient(rgb(34, 23, 6) 90%,rgb(230, 151, 33) );
+  background: linear-gradient(rgb(104, 67, 4) 15%,rgb(230, 151, 33) );
   
   position: absolute;
-  top: 119px;
-  left: 854px;
-  height: 850px;
+  top: 880px;
+  left: 855px;
+  height: 45px;
   width: 144px;
-  clip-path: polygon(50% 0, 50% 0%, 100% 100%, 0% 100%);
-  z-index: -4;
+  clip-path: polygon(4% 0, 100% 0%, 100% 100%, 0% 100%);
+  z-index: 99999;
 }
 .back_lines-16 {
 
@@ -325,14 +326,14 @@ body {
 }
 .back_lines-18 {
 
-  background: linear-gradient(rgb(46, 30, 6) 90%,rgba(230, 151, 33,1) );
+  background: linear-gradient(to left,rgb(56, 32, 3) 1%,rgb(230, 142, 42) );
   
   position: absolute;
   top: 119px;
   left: 930px;
   height: 850px;
   width: 484px;
-  clip-path: polygon(0% 0, 0% 0%, 100% 100%, 61% 100%);
+  clip-path: polygon(0% 0, 0% 0%, 100% 100%, 71% 100%);
   z-index: -4;
 
 }
@@ -1092,5 +1093,15 @@ background-color: rgb(199, 166, 58);
   width: 133px;
   height: 100px;
   background: linear-gradient( rgb(147, 168, 28) 1%, rgb(19, 22, 4));
+  
+}
+
+.final_block {
+  position: absolute;
+  top: 925px;
+  left: 855px;
+  width: 144px;
+  height: 100px;
+  background: linear-gradient( rgb(114, 74, 13) 1%, rgb(43, 28, 1));
   
 }
