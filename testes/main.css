@@ -78,14 +78,15 @@ body {
     margin-right: auto;
     margin-left: auto;
     position: absolute;
-    top: 479px;
-    left: 282px;
-    height: 5rem;
-    width: 198px;
+    top: 437px;
+    left: 280px;
+    height: 122px;
+    width: 253px;
+    /*rgb(134, 68, 68);*/
     background-color: rgb(134, 68, 68);
-    -webkit-clip-path: polygon(0 0, 50% 0, 100% 100%, 50% 100%);
+    -webkit-clip-path: polygon(63.5% 0, 100% 0, 40% 100%, 0% 100%);
     z-index: 9999;
-    transform: scaleX(-1);
+    
   }
   
 
@@ -95,13 +96,15 @@ body {
     margin-right: auto;
     margin-left: auto;
     position: absolute;
-    top: 479px;
-    left: 1390px;
-    height: 5rem;
-    width: 198px;
+    top: 437px;
+    right: 320px;
+    height: 122px;
+    width: 247px;
+    /*rgb(134, 68, 68);*/
     background-color: rgb(134, 68, 68);
-    -webkit-clip-path: polygon(0 0, 46% 0, 97% 100%, 47% 100%);
-    z-index: 9999;
+    -webkit-clip-path: polygon(0% 0, 35% 0, 100% 100%, 60% 100%);
+    z-index: 99999;
+    
     
   }
 
@@ -114,7 +117,7 @@ body {
     left: 880px;
     height: 100px;
     width:100px;
-    background-color: rgba(216, 20, 20, 0.9);
+    background-color: rgba(216, 20, 20, 0.1);
     -webkit-clip-path:circle(40%);
     z-index: 99999;
   }
@@ -124,15 +127,15 @@ body {
     left: 855px;
     width: 150px;
     height: 150px;
-    background-color: rgba(235, 220, 10, 0.8);
+    background-color: rgba(235, 220, 10, 0.1);
   }
 
   .center-1:hover {
-    background-color: rgba(223, 50, 27, 0.9);
+    background-color: rgba(223, 50, 27, 0.1);
   }
 
   .center:hover {
-    background-color: rgba(238, 154, 27, 0.7);
+    background-color: rgba(238, 154, 27, 0.1);
   }
 
 .footo {
@@ -304,9 +307,22 @@ body {
   top: 119px;
   left: 854px;
   height: 850px;
-  width: 140px;
-  clip-path: polygon(100% 0, 100% 0%, 100% 100%, 0% 100%);
+  width: 144px;
+  clip-path: polygon(50% 0, 50% 0%, 100% 100%, 0% 100%);
   z-index: -4;
+}
+.back_lines-16 {
+
+  background: linear-gradient(rgba(34, 23, 6,.3) 90%,rgba(230, 151, 33,1) );
+  
+  position: absolute;
+  top: 119px;
+  left: 930px;
+  height: 850px;
+  width: 211px;
+  clip-path: polygon(0% 0, 0% 0%, 100% 100%, 32% 100%);
+  z-index: -4;
+
 }
 .z_ {
   z-index: 6;
@@ -831,7 +847,7 @@ background-color: rgba(233, 160, 51, 0.1);
 
 .footer-6 {
   
-  background: linear-gradient( rgb(58, 37, 9) 72%, rgb(129, 92, 35));
+  background: linear-gradient( rgb(27, 17, 1) 72%, rgba(216, 133, 10));
   position: absolute;
   top: 119px;
   left: 862px;
@@ -923,7 +939,7 @@ background-color: rgb(199, 166, 58);
   top: 0px;
   left: 532px;
   z-index: 9999;
-  background-color: rgba(52, 18, 63, 0.8);
+  background-color: rgba(19, 3, 0, 0.8);
 }
 
 .back_marko {
@@ -998,7 +1014,7 @@ background-color: rgb(199, 166, 58);
   left: 862px;
   width: 135px;
   height: 100px;
-  background: linear-gradient( rgb(119, 84, 32) 1%, rgb(22, 14, 1));
+  background: linear-gradient( rgb(192, 119, 11) 1%, rgb(26, 16, 2));
   
 }
 .final_square-7 {
