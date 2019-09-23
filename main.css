@@ -156,14 +156,9 @@ header .navbar-toggler .cross {
     height: 97px;
   }
   
-  .date1 {
-    border: 2px solid white;
-    width: 150px;
-  }
-  
 
   .logo a svg{
-    border: 2px solid white;
+    
     
   } 
   
@@ -233,11 +228,12 @@ header .navbar-toggler .cross {
   }
 
   .white-nav ul li {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 650;
     line-height: 24px;
     margin-bottom: 15px;
     margin-top:  15px;
+    
     border-left: 1px solid #d9d9d9;
   }
   /* LINKS ARE NOT SHOWING UP */
@@ -254,6 +250,14 @@ header .navbar-toggler .cross {
     justify-content: center;
   }
   
+  .white-nav form label img {
+    position: absolute;
+    right: 79px;
+    top: -2px;
+    width: 20px;
+    height: 20px;
+  }
+
   header .date {
     display: block;
     font-weight: normal;
@@ -266,6 +270,8 @@ header .navbar-toggler .cross {
   }
 
   header .logo {
+    position: absolute;
+    right: 30%;
     height: 60px;
     margin-top: 22px;
     margin-left: 90px;
