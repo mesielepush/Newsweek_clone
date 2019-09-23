@@ -295,6 +295,8 @@ header .navbar-toggler .cross {
   }
   .cover {
     border: 4px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   article h3{
     font: normal 17px/17px "Roboto condensed",sans-serif;
@@ -302,23 +304,27 @@ header .navbar-toggler .cross {
     line-height: 24px;
     font-weight: 650;
   }
-.title span {
-  padding-top: 1vh;
-  font: bold 16px/16px "Roboto Condensed",sans-serif;
-  text-transform: uppercase;
-  padding-bottom: 11px;
-  color: rgba(3,3,3,.4);
-}
+  .title span {
+    padding-top: 1vh;
+    font: bold 16px/16px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 11px;
+    color: rgba(3,3,3,.4);
+  }
+  .wrap {
+    position: relative;
+  }
   .category {
     font: bold 17px/17px "Roboto condensed",sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     position: absolute;
-    color: #f72210;
-    padding: 8px 15px 9px;
-    background-color: rgba(255,255,255,.9);
     bottom: 0;
     left: 0;
+    color: #f72210;
+    padding: 8px 15px 9px;
+    background-color: rgba(255,255,255,.8);
+    
     z-index: 1;
   }
 
