@@ -1041,3 +1041,46 @@ background-color: rgb(199, 166, 58);
   left: 0;
   background-color: #030927;
 }
+.screen_helper_left {
+  position: absolute;
+  top: 600px;
+  left: 0px;
+  width: 200px;
+  height: 200px;
+  clip-path: polygon(45% 0, 55% 0%, 100% 100%, 90% 100%, 50% 10%, 20% 100%, 12% 100%);
+  background-color: rgb(238, 208, 208);
+  z-index: 99999;
+}
+.screen_helper_left-1 {
+  position: absolute;
+  top: 407px;
+  left: 357px;
+  width: 135px;
+  height: 135px;
+  clip-path: polygon(45% 0, 55% 0%, 100% 100%, 90% 100%, 50% 10%, 20% 100%, 12% 100%);
+  background-color: rgb(199, 174, 174);
+  z-index: 3;
+}
+.screen_helper_left-2 {
+  position: absolute;
+  top: 407px;
+  left: 90px;
+  width: 500px;
+  height: 193px;
+  clip-path: polygon(65.2% 0, 70% 0%, 4.2% 100%, 0% 100%);
+  background-color: rgba(218, 50, 39, 0.5);
+  z-index: 3;
+
+}
+.screen_helper_left-3 {
+  position: absolute;
+  top: 36px;
+  left: 110px;
+  width: 40px;
+  height: 563px;
+  clip-path: polygon(95% 0, 100% 0%, 100% 96%, 0% 100%);
+  
+  background: linear-gradient(rgba(66, 13, 9, 0.6) 50%,rgb(70, 12, 7) );
+  z-index: 99999;
+
+}
