@@ -65,8 +65,20 @@ nav {
   margin: auto;
   background-color: white;
 }
+article {
+  display: block;
+  border: 2px solid black;
+  max-width: 500px;
+  min-width: 350px;
+  max-height: 550px;
 
-
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Condensed",sans-serif;
+  margin-bottom: 10px;
+  position: relative;
+  color: black;
+}
 header {
   position: relative;
   height: 50px;
@@ -157,11 +169,6 @@ header .navbar-toggler .cross {
   }
   
 
-  .logo a svg{
-    
-    
-  } 
-  
   .white-nav {
     display: block;
     position: -webkit-relative;
@@ -257,12 +264,16 @@ header .navbar-toggler .cross {
     width: 20px;
     height: 20px;
   }
+  
+  #white_bar_end{
+    color: red
+  }
 
   header .date {
     display: block;
     font-weight: normal;
     line-height: 34px;
-    padding: 0 15px;
+    padding-top: 55px;
     color: white;
     font: normal 15px/15px "Roboto Condensed",sans-serif;
     margin-bottom: 14px;
@@ -270,14 +281,11 @@ header .navbar-toggler .cross {
   }
 
   header .logo {
-    position: absolute;
-    right: 30%;
+   
     height: 60px;
-    margin-top: 22px;
+    margin-top: 0px;
     margin-left: 90px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: start;
+    
   }
 
   button {
@@ -286,6 +294,18 @@ header .navbar-toggler .cross {
   
   .sign-sub {
     margin-right: -30px;
+  }
+  .image img {
+    width: 100%;
+  }
+  .category {
+    font: bold 17px/16px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: absolute;
+    color: #f72210;
+    padding: 8px 15px 9px;
+    background-color: rgba(255,255,255,.9);
   }
 
 }
