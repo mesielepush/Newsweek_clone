@@ -125,17 +125,18 @@ header .navbar-toggler .cross {
 }
 
 .lk-2 span{
-  box-sizing: border-box;
+  
   position: relative;
   font: bold 17px/17px "Roboto Condensed",sans-serif;
   text-transform: uppercase;
   display: inline-block;
+  font-weight: 700;
   padding: 6px 3px;
   margin-top: -4px;
   
 }
 .lk-3 span{
-  box-sizing: border-box;
+  
   position: relative;
   left: -7px;
   font: bold 15px/15px "Roboto Condensed",sans-serif;
@@ -154,6 +155,17 @@ header .navbar-toggler .cross {
   header {
     height: 97px;
   }
+  
+  .date1 {
+    border: 2px solid white;
+    width: 150px;
+  }
+  
+
+  .logo a svg{
+    border: 2px solid white;
+    
+  } 
   
   .white-nav {
     display: block;
@@ -221,7 +233,8 @@ header .navbar-toggler .cross {
   }
 
   .white-nav ul li {
-    font-size: 21px;
+    font-size: 20px;
+    font-weight: 650;
     line-height: 24px;
     margin-bottom: 15px;
     margin-top:  15px;
