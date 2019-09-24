@@ -288,7 +288,7 @@ header .navbar-toggler .cross {
     min-width: 992px;
     max-width: 1310px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 3fr 2fr;
     
   }
   .cover .row {
@@ -297,9 +297,12 @@ header .navbar-toggler .cross {
     padding-top: 16px;
   }
   .row_center {
+    background-color: rgba(139, 53, 53,.4)
+  }
+  .row_center .card {
+    border:2px solid black;
     
   }
-
   article h3{
     font: normal 17px/17px "Roboto Condensed",sans-serif;
     font-size: 24px;
@@ -310,7 +313,6 @@ header .navbar-toggler .cross {
     padding-top: 1vh;
     font: bold 16px/16px "Roboto Condensed",sans-serif;
     text-transform: uppercase;
-    padding-bottom: 11px;
     color: rgba(3,3,3,.4);
   }
   .wrap {
@@ -338,18 +340,15 @@ header .navbar-toggler .cross {
     justify-content: flex-start;
     align-items: flex-end;
     position: relative;
+    right: 0px;
   }
-  .opinion .title {
-    display: relative;
-    height: 40px;
+  .opinion .title span{
+    margin-right:280px;
     
-  }
-  .opinion .title span {
-    position: absolute;
-    left: 30px;
   }
   .opinion ul {
     max-width: 360px;
+    
     
   }
   .opinion li {
