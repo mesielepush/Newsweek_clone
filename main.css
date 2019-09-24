@@ -237,8 +237,7 @@ header .navbar-toggler .cross {
   .white-nav ul li a {
     color: black;
     padding: 0;
-    height: 100%;
-    width: 100%;
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -246,7 +245,10 @@ header .navbar-toggler .cross {
     -ms-flex-pack: center;
     justify-content: center;
   }
-  
+  .white-nav ul li a:hover {
+    text-decoration: none;
+    color: #F72210;
+  }
   .white-nav form label img {
     position: absolute;
     right: 79px;
