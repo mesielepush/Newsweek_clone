@@ -297,11 +297,17 @@ header .navbar-toggler .cross {
     padding-top: 16px;
   }
   .row_center {
-    background-color: rgba(139, 53, 53,.4)
-  }
-  .row_center .card {
-    border:2px solid black;
+    position: relative;
     
+  }
+  .cards img {
+    width: 100%;
+    height: 100%;
+  }
+  .cards {
+    position: absolute;
+    top: 45px;
+       
   }
   article h3{
     font: normal 17px/17px "Roboto Condensed",sans-serif;
@@ -340,7 +346,7 @@ header .navbar-toggler .cross {
     justify-content: flex-start;
     align-items: flex-end;
     position: relative;
-    right: 0px;
+    right: -3px;
   }
   .opinion .title span{
     margin-right:280px;
