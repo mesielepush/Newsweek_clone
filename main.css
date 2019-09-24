@@ -172,7 +172,7 @@ header .navbar-toggler .cross {
     position: -webkit-relative;
     position: relative;
     background-color: white;
-    border-bottom: 2px solid #f4f5f6;
+    border-bottom: 2px solid #edf0f0;
   }
   
   .white-nav .angle {
@@ -263,9 +263,6 @@ header .navbar-toggler .cross {
     height: 20px;
   }
   
-  #white_bar_end{
-    color: red
-  }
 
   header .date {
     display: block;
@@ -294,17 +291,19 @@ header .navbar-toggler .cross {
     margin-right: -30px;
   }
   .cover {
-    border: 4px solid red;
+    min-width: 992px;
+    max-width: 1310px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
   }
   .cover .row {
     padding-left: 25px;
     padding-right: 30px;
+    padding-top: 16px;
   }
   .row_center {
     
-    min-width: 424px;
   }
 
   article h3{
@@ -336,5 +335,50 @@ header .navbar-toggler .cross {
     
     z-index: 1;
   }
+  .title {
+    margin-bottom: 5px;
+  }
+  .opinion {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+  }
+  .opinion .title {
+    display: relative;
+    height: 40px;
+    
+  }
+  .opinion .title span {
+    position: absolute;
+    left: 30px;
+  }
+  .opinion ul {
+    max-width: 360px;
+    
+  }
+  .opinion li {
+    border-bottom: 2px solid #d4d4d4 !important;
+    max-width: 340px;;
+  }
+  
+  .opinion li a {
+    position: relative;
+    width: 75px;
+    height: 60px;;
+    
+  }
 
+  .opinion li a img{
+    position: absolute;
+    top:-15px
+  }
+  .opinion li p {
+    text-transform: uppercase;
+    font-weight: 650;
+    font-size: .8rem;
+    color: rgb(85,85,85);
+    margin-top: 4px;
+  }
 }
