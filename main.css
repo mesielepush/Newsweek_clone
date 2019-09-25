@@ -101,7 +101,8 @@ header .header-right {
 .sign-sub {
   flex-direction: row-reverse;
   margin-top: 12px;
-  margin-right: 33px; 
+  margin-right: 33px;
+  
 }
 
 .menu_bar {
@@ -152,11 +153,106 @@ header .navbar-toggler .cross {
   margin-left: 4px;
 }
 
+.redbar1 {
+  display: none;
+}
+
 @media (min-width: 992px) {
+  .principal {
+    display: none;
+  }
   header {
     height: 97px;
   }
+  .subs {
+    display: flex;
+    width: 100%;
+    align-content: space-between
+  }
+  .redbar1 {
+    display: flex;
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+    background-color: #f72210;
+    z-index: 100;
+    position: fixed;
+    top:0;
+    left:0;
+    
+    
+
+  }
+  .logo1 {
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 90px;
+    
+  }
+
+  .logo1 a svg {
+    fill: #fff;
+    height: 100%; }
+
+  .sign-sub1 {
+    flex-direction: row-reverse;
+    right: 38px;
+  }
   
+  .lk-31 span{
+  
+    position: relative;
+    
+    font: 18px/18px "Roboto Condensed",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    display: inline-block;
+    padding: 6px 3px;
+    text-shadow: 0.0vh 0.0vh 0.1vh #f72210;
+  }
+  .lk-31 svg {
+    height: 2vh;
+    fill: #f72210;
+    margin-left: 4px;
+  }
+  a.lk-31 {
+    color: #f72210;
+    background-color: #fff;
+    width: 127px;
+    height: 25px;
+    margin-top: 2px;
+  }
+  .lk-21 span{
+  
+    position: relative;
+    font: bold 17px/17px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 600;
+    padding: 6px 3px;
+    margin-top: -4px;
+    
+  }
+
+  .menu_bar1 {
+    display: block;
+    position: absolute;
+    right: 33px;
+    top: 3px;
+    height: 50px;
+    width: 40px;
+    padding: 0;
+    z-index: 205;
+
+  }
+  .menu_bar1 i {
+    padding-left: 2vh;
+    margin-right: 2vh;
+    font-size: 2.5rem;
+    color: rgba(255, 255, 255,.5)
+  }
+
 
   .white-nav {
     display: block;
@@ -391,4 +487,5 @@ header .navbar-toggler .cross {
   .media-body span {
     font: bold 17px/21px "Roboto Condensed",sans-serif;
   }
+
 }
