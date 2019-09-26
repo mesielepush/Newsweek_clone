@@ -54,22 +54,11 @@ a {
   text-decoration: none;
 }
 nav {
-  max-width: 1310px;
+  max-width: 1200px;
   margin: auto;
   background-color: white;
 }
-article {
-  display: block;
-  border: 2px solid black;
-  
 
-}
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto Condensed",sans-serif;
-  margin-bottom: 10px;
-  position: relative;
-  color: black;
-}
 /* WIDE RED NAVBAR*/
 header {
   position: relative;
@@ -507,6 +496,7 @@ article h3{
 @media (min-width: 992px) {
   .principal {
     display: flex;
+    
   }
   .row_zero {
     display: none !important;
@@ -664,7 +654,7 @@ article h3{
   }
   .cover {
     min-width: 992px;
-    max-width: 1310px;
+    max-width: 1200px;
     display: grid;
     grid-template-columns: 2fr 3fr 2fr;
     
