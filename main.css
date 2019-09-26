@@ -270,7 +270,10 @@ a.lk-31 {
   position: absolute;
   top: 45px;
   padding-right: 40px;
+  /*rgb(255, 245, 247)*/
+  background-color: red !important;
 }
+
 .wrap {
   position: relative;
 }
@@ -311,11 +314,20 @@ a.lk-31 {
   position: relative;
   
 }
+.center_cards {
+  display: block;
+}
+.row_culture {
+  
+}
 .title_culture {
   padding-top: 10px;
   padding-bottom: 9px;
-  margin-left: 9px;
-  background:rgb(244,245,247)
+  margin-left: 0px;
+  background: #F4F5F7;
+}
+.title_culture span{
+  padding-left: 10px;
 }
 .center_cards h3{
   font: 20px/22px "Lora",serif;
@@ -348,6 +360,10 @@ a.lk-31 {
   color: #272727;
   font: 300 13px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
 }
+.center_cards {
+  display: inline-block;
+
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
   .row_zero {
@@ -358,6 +374,9 @@ a.lk-31 {
     max-width: 768px;
     display: grid;
     grid-template-columns: 7fr 10fr;
+  }
+  .center_cards {
+    column-count: 2;
   }
   
   .cover .row {
@@ -573,13 +592,30 @@ a.lk-31 {
   }
   
   .culture_and_travel {
-    display: block;
-    background-color: rgb(244,245,247);
+    display: inline-block;
+    background-color: rgb(255, 245, 247);
+    /*rgb(244,245,247)*/
+    max-height: 855px;
+    
   }
   .title_culture {
     padding-bottom: 15px;
   }
+  .center_cards {
+    column-count: 2;
+  }
+  .center_cards img {
+    width:100%;
+    height: 100%;
+  }
   
+  .c_card {
+    padding-bottom: 200px;
+  }
+  .more_stories {
+    display:block;
+  }
+
 
   .opinion {
     display: flex;
