@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   color: black;
 }
+/* WIDE RED NAVBAR*/
 header {
   position: relative;
   height: 50px;
@@ -102,19 +103,6 @@ header .header-right {
   right: 25px;
 }
 
-.sign-sub {
-  
-  position: relative;
-  top: 0vh;
-  left: 14.5vh;
-
-  
-}
-
-.menu_bar {
-  margin-right: 10px;
-}
-
 header .navbar-toggler {
   display: inline;
   position: absolute;
@@ -130,6 +118,20 @@ header .navbar-toggler .cross {
   display: none;
 }
 
+/* WIDE RED NAVBAR*/
+
+.sign-sub {
+  
+  position: relative;
+  top: 0vh;
+  left: 14.5vh;
+
+  
+}
+
+.menu_bar {
+  margin-right: 10px;
+}
 .lk-2 span{
   
   position: relative;
