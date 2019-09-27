@@ -343,17 +343,43 @@ a.lk-31 {
 }
 
 .culture_and_travel {
-  display: inline-block;
-  background-color: rgb(244,245,247);
+  display: block;
+  background-color: rgb(47, 98, 201);
   /*rgb(244,245,247)*/
+  box-sizing: border-box;
   max-height: 855px;
-  
+  flex-wrap: wrap;
 }
 .title_culture {
   padding-bottom: 15px;
 }
-.center_cards {
-  column-count: 2;
+
+.center_cards .card {
+  flex-direction: block;
+  box-sizing: border-box;
+  position: relative;
+  
+}
+.culture_1 div {
+  
+  
+}
+.culture_1 img {
+ 
+ 
+}
+.culture_2  {
+  
+  
+}
+.culture_2 div {
+  
+}
+.culture_and_travel {
+  max-width: 384px;
+}
+.culture_1, .culture_2 {
+  max-width: 200px;
 }
 .center_cards img {
   width:100%;
@@ -362,6 +388,7 @@ a.lk-31 {
 
 .c_card {
   background-color: rgb(244,245,247);
+  
 }
 
 
@@ -383,7 +410,7 @@ a.lk-31 {
   
   .culture-stories {
     background-color: #7a005c;
-    margin-bottom: 20px;
+    
 }
   .order-2 {
     -webkit-order: 2;
@@ -586,8 +613,6 @@ a.lk-31 {
     min-width: 200px;
     max-width: 350px;
     
-    right: 10px;
-    padding-left: 5px;
   }
   .op_title {
     position:absolute;
