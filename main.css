@@ -68,14 +68,6 @@ header {
   width: 100%;
 }
 
-header .date {
-  display: none;
-}
-
-header .logo {
-  height: 20px;
-}
-
 header .logo a svg {
   fill: #fff;
   height: 100%;
@@ -88,28 +80,8 @@ header .header-right a.lk-3 {
   height: 25px;
   margin-top: 2px;
 }
-header .header-right {
-  right: 25px;
-}
-
-header .navbar-toggler {
-  display: inline;
-  position: absolute;
-  right: 13px;
-  top: 13px;
-  height: 28px;
-  width: 28px;
-  padding: 0;
-  fill: #FB9A94;
-}
-
-header .navbar-toggler .cross {
-  display: none;
-}
 
 /* WIDE RED NAVBAR*/
-
-
 
 .menu_bar {
   margin-right: 10px;
@@ -120,7 +92,7 @@ header .navbar-toggler .cross {
   font: bold 17px/17px "Roboto Condensed",sans-serif;
   text-transform: uppercase;
   display: inline-block;
-  font-weight: 6000;
+  font-weight: 600;
   padding: 6px 3px;
   margin-top: -4px;
   
@@ -141,12 +113,13 @@ header .navbar-toggler .cross {
 .lk-3 svg {
   height: 45px;
   width: 45px;
-
   fill: #f72210;
   margin-left: 7px;
 }
 
-
+.redbar {
+  justify-content: space-around;
+}
 
 .principal {
   display: none;
@@ -185,7 +158,7 @@ header .navbar-toggler .cross {
 .sign-sub1 {
   flex-direction: row-reverse;
   top: 5px;
-  right: 38px;
+  right: 30px;
 }
 
 .lk-31 span{
@@ -198,7 +171,7 @@ header .navbar-toggler .cross {
   letter-spacing: 0px;
   display: inline-block;
   padding: 6px 3px;
-  text-shadow: 0.0vh 0.0vh 0.1vh #f72210;
+  
 }
 
 a.lk-31 {
@@ -210,7 +183,9 @@ a.lk-31 {
 }
 
 .lk-31 svg {
-  height: 2vh;
+  height: 5vh;
+  margin-left: 4px;
+  fill: #f72210;
 }
 .lk-21 span{
 
@@ -602,11 +577,12 @@ article h3{
     font-weight: normal;
     line-height: 34px;
     padding-top: 55px;
-    max-width: 150px;
+    max-width: 550px;
     color: white;
     font: normal 17px/17px "Roboto Condensed",sans-serif;
     margin-bottom: 14px;
     font-weight: 300;
+    padding-right: 10.3%;
     
   }
 
@@ -614,18 +590,19 @@ article h3{
    
     height: 60px;
     margin-top: 0px;
-    margin-left: 90px;
+    
     
   }
 
   button {
     display: none !important;
+    
   }
   
   .sign-sub {
     position: relative;
     top: -2vh;
-    left: 21.5vh;   
+    right: -70px;   
   }
 
  
