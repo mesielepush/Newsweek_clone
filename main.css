@@ -370,19 +370,26 @@ a.lk-31 {
 
 @media (min-width: 844px) and (max-width: 1090px) {
   .cover {
-    display: inline-flex;
-    column-count: 2
-    /*
-    grid-template-columns: 4fr 8fr;*/
+    display: grid ;
+    
   }
-  .row_center {
-    max-width: 250px;
-  }
+  
 }
 
 
 
 @media (min-width: 992px) {
+  
+  
+  .culture-stories {
+    background-color: #7a005c;
+    margin-bottom: 20px;
+}
+  .order-2 {
+    -webkit-order: 2;
+    order: 2;
+  }
+
   .principal {
     display: flex;
   }
