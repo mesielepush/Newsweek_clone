@@ -397,7 +397,7 @@ a.lk-31 {
 
 @media (min-width: 844px) and (max-width: 1090px) {
   .cover {
-    display: grid ;
+    
     
   }
   
@@ -405,7 +405,7 @@ a.lk-31 {
 
 
 
-@media (min-width: 992px) {
+@media (min-width: 1090px) {
   
   
   .culture-stories {
@@ -571,20 +571,25 @@ a.lk-31 {
     top: -2vh;
     right: -70px;   
   }
- 
-  .cover {
-    min-width: 450px;
-    max-width: 1310px;
-    display: grid;
-    background-color: white;
-    grid-template-columns: 2fr 3fr 2fr;
-    
-  }
-  .cover .row {
-    padding-left: 26px;
+  .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
     padding-right: 15px;
-    padding-top: 16px;
   }
+  .cover {
+    
+    max-width: 1310px;
+    display: table;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    /*
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    */
+  }
+  
   .first_row {
     left: 5px;
     min-width: 312px;
@@ -592,7 +597,7 @@ a.lk-31 {
   }
  
   
-  .row_center {
+  .center_row {
     min-width: 433px;
     max-width: 800px;
     position: relative;

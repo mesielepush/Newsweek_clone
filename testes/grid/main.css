@@ -1,67 +1,31 @@
 body {
-    background-color: blueviolet
+    background-color: rgb(238, 231, 245)
 }
-.container-fluid {
-    background-color: aqua
+.container {
+    top: 15%;
+    left: 10%;
+    border: 2px solid red;
 }
-.f_row, .c_row, .l_row {
-    position: relative;
-}
- span {
-    font: bold 32px/32px "Roboto Condensed",sans-serif;
-    text-transform: uppercase;
-    color: rgba(56, 56, 46, 0.8);
-    position: absolute;
-    left: 25%;
-    top: 25%;
-}
-.general_container {
-    background-color: red;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-}
-.first_row {
-    background-color: rgb(16, 58, 150);
-    max-width: 150px;
+.row {
     display: flex;
-    flex-direction: column;
-}
-.center_row {
-    background-color: coral;
-    max-width: 150px;
-    display: flex;
-    flex-direction: column;
-}
-.last_row {
-    background-color: darkcyan;
-    max-width: 150px;
-    display: grid;
     
 }
-.f_row div, .c_row div, .l_row div {
-    width: 100px;
-    height: 100px;
-    box-sizing: border-box; 
+.first_row {
+    background-color: rgba(196, 167, 167, .5);
+    flex-direction: column;
+    min-width: 240px;;
+    min-height: 250px;
+}
+.center_row {
+    background-color: rgba(152, 152, 175, .5);
+    flex-direction: column;
+    min-width: 240px;;
+}
+.last_row {
+    background-color: rgba(189, 189, 162,.5);
+    flex-direction: column;
+    min-width: 240px;;
+}
+.first_row div, .center_row div, .last_row div{
     border: 1px solid black;
-    background-color: rgb(52, 221, 29);
-    position: relative;
-}
-.f_row div:nth-child(even) {
-    background-color: burlywood
-}
-.f_row div:nth-child(odd) {
-    background-color: rgb(110, 75, 30)
-}
-.c_row div:nth-child(even) {
-    background-color: rgb(88, 168, 202)
-}
-.c_row div:nth-child(odd) {
-    background-color: rgb(88, 177, 88)
-}
-.l_row div:nth-child(even) {
-    background-color: rgb(145, 78, 165)
-}
-.l_row div:nth-child(odd) {
-    background-color: rgb(31, 145, 153)
 }
