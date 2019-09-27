@@ -9,7 +9,7 @@
   display: none
 }
 body {
-  background-color: rgb(16, 52, 100)
+  background-color: #F4F5F6
 }
 
 ul {
@@ -284,17 +284,7 @@ a.lk-31 {
   color: #333;
   -webkit-font-smoothing: antialiased;
 }
- .first_row  {
-  position: relative;
-  
-}
-
-.row_center {
-  min-width: 433px;
-  max-width: 800px;
-  position: relative;
-  
-}
+ 
 
 .title_culture {
   padding-top: 10px;
@@ -343,10 +333,6 @@ a.lk-31 {
   display: block;
 
 }
-.first_row {
-  left: 5px;
-  min-width: 312px;;
-}
 
 
 .title span {
@@ -382,14 +368,16 @@ a.lk-31 {
 
 
 
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 844px) and (max-width: 1090px) {
   .cover {
-    padding-top: 5.2%;
-    background-color: rgb(68, 75, 173) !important;
-    display: grid;
-    grid-template-columns: 2fr 3fr;
+    display: inline-flex;
+    column-count: 2
+    /*
+    grid-template-columns: 4fr 8fr;*/
   }
-  
+  .row_center {
+    max-width: 250px;
+  }
 }
 
 
@@ -563,7 +551,19 @@ a.lk-31 {
     padding-right: 15px;
     padding-top: 16px;
   }
+  .first_row {
+    left: 5px;
+    min-width: 312px;
+    position: relative;;
+  }
+ 
   
+  .row_center {
+    min-width: 433px;
+    max-width: 800px;
+    position: relative;
+    
+  }
   .cards {
     position: absolute;
     top: 60px;
