@@ -70,7 +70,7 @@ header {
 
 header .logo a svg {
   fill: #fff;
-  height: 100%;
+  height: 55px;
 }
 
 header .header-right a.lk-3 {
@@ -145,11 +145,11 @@ header .header-right a.lk-3 {
 
 }
 .logo1 {
-  height: 20px;
+  height: 18px;
   margin-top: 0px;
-  
-  
+  left: -2px;
 }
+
 
 .logo1 a svg {
   fill: #fff;
@@ -158,33 +158,31 @@ header .header-right a.lk-3 {
 .sign-sub1 {
   flex-direction: row-reverse;
   top: 5px;
-  right: 30px;
+  right: 22px;
 }
 
 .lk-31 span{
-
   position: relative;
-  
-  font: 18px/18px "Roboto Condensed",sans-serif;
+  font: 17px/17px "Roboto Condensed",sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0px;
   display: inline-block;
-  padding: 6px 3px;
+  
   
 }
 
 a.lk-31 {
   color: #f72210;
   background-color: #fff;
-  width: 127px;
+  width: 119px;
   height: 25px;
   margin-top: 2px;
 }
 
 .lk-31 svg {
   height: 5vh;
-  margin-left: 4px;
+  margin-left: 12px;
   fill: #f72210;
 }
 .lk-21 span{
@@ -202,7 +200,7 @@ a.lk-31 {
 .menu_bar1 {
   display: block;
   position: absolute;
-  right: 33px;
+  right: 18px;
   top: 3px;
   height: 50px;
   width: 40px;
