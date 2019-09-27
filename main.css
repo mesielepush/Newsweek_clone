@@ -229,7 +229,7 @@ a.lk-31 {
 .cards {
   position: absolute;
   top: 45px;
-  padding-right: 40px;
+  padding-right: 28px;
   /*rgb(255, 245, 247)*/
   
 }
@@ -258,7 +258,7 @@ a.lk-31 {
   color: 000000;
 }
 .center_cards div {
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 .title {
   margin-top: 15px;
@@ -270,18 +270,21 @@ a.lk-31 {
   font-weight: 800;
   color: 000000;
 }
-.row_center, .first_row  {
+ .first_row  {
   position: relative;
-  
+  left: 8.9vh;
 }
+
 .row_center {
-  min-width: 400px;
+  min-width: 380px;
   max-width: 800px;
+  position: relative;
+  left: 4%;
 }
 
 .title_culture {
   padding-top: 10px;
-  padding-bottom: 9px;
+  padding-bottom: 9%;
   margin-left: 0px;
   background: #F4F5F7;
 }
@@ -562,17 +565,22 @@ article h3{
     justify-content: flex-start;
     align-items: flex-end;
     position: relative;
-    min-width: 290px;
-    
+    min-width: 200px;
+    max-width: 350px;
+    right: 10px;
+    padding-left: 5px;
   }
   .opinion .title {
     position: relative;
+    min-width: 200px;
+    max-width: 350px;
+    border: 2px solid red;
+    right: 35%;
   }
   .opinion .title span{
-    position: absolute;
-    right:50vh;
+    position: relative;
     top: -1.5vh;
-    
+    left:0px;
   }
   .opinion ul {
     max-width: 360px;
