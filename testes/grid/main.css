@@ -2,7 +2,7 @@ body {
     background-color: rgb(238, 231, 245)
 }
 .container {
-    top: 15%;
+    top: -10%;
     left: 10%;
     border: 2px solid red;
 }
@@ -13,18 +13,18 @@ body {
 .first_row {
     background-color: rgba(196, 167, 167, .5);
     flex-direction: column;
-    min-width: 240px;;
-    min-height: 250px;
+    
+    min-height: 350px;
 }
 .center_row {
     background-color: rgba(152, 152, 175, .5);
     flex-direction: column;
-    min-width: 240px;;
+    
 }
 .last_row {
     background-color: rgba(189, 189, 162,.5);
     flex-direction: column;
-    min-width: 240px;;
+    min-height: 250px;
 }
 .first_row div, .center_row div, .last_row div{
     border: 1px solid black;
