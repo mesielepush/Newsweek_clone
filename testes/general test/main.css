@@ -1,3 +1,27 @@
+.container_main {
+    flex-direction: column;
+    position: relative;
+}
+
+.row_1, .row_2, .row_3, .row_4 {
+    padding: 100px;
+    position: absolute;
+    top: 50px;
+}
+.row_1 {
+    border: 2px solid red;
+    top: 650px;
+    left: 13px;
+}
+.row_2 {
+    border: 2px solid red;
+    left: 650px
+}
+.row_4 {
+    left: 650px;
+    top: 650px;
+}
+
 .item {
     width: 100px;
     height: 100px;
