@@ -23,7 +23,11 @@ a {
 }
 /* #####  NAV BAR   ##### */
 .white-nav {
-  display: none;
+  display: block;
+    position: -webkit-relative;
+    position: relative;
+    background-color: rgb(173, 76, 76);
+    border-bottom: 2px solid #edf0f0;
 }
 .btn {
   width: auto;
@@ -219,6 +223,7 @@ a.lk-31 {
   }
   .principal {
     display: flex;
+    
   }
   
 
