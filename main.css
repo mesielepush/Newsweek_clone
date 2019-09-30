@@ -479,8 +479,8 @@ a.lk-31 {
   }
         /* CENTER ROW */
   .center_row {
-    padding-left: 35px;
-    min-width: 400px;
+    padding-left: 40px;
+    min-width: 485px;
     max-width: 565px;;
     
       
@@ -509,8 +509,22 @@ a.lk-31 {
     background-color: rgba(255,255,255,.8);
     z-index: 1;
   }
-  .c_card {
+  .top_card .card-body{
+    padding: 0px;
+  }
+  .top_card {
+    padding-bottom: 30px;
+  }
+  .top_card h4{
     
+    font-family: "Roboto Condensed",sans-serif;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 800;
+    color: black;
+    margin-top:10px;
+    margin-bottom: 10px;
+    position: relative;
   }
         /* last ROW */
   
