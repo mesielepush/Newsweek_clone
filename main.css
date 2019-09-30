@@ -389,6 +389,12 @@ a.lk-31 {
     justify-content: flex-start;
     align-content: flex-start
   }
+  .c_card:nth-child(odd) {
+    padding-right: 10px;
+  }
+  .c_card:nth-child(even) {
+    padding-left: 10px;
+  }
   .card-body h3 {
     font-family: bold "Roboto Condensed",sans-serif;
     font-size: 22px !important;
@@ -427,7 +433,7 @@ a.lk-31 {
         /* FIRST ROW*/
   .first_row {
     padding-left: 48px;
-    max-width: 308px;
+    max-width: 300px;
   }
         /* CENTER ROW */
   .center_row {
