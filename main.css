@@ -285,6 +285,7 @@ a.lk-31 {
   font-family: Arial,Helvetica,sans-serif;
 }
 
+
 /* #####  NAV BAR   ##### */
 
 /* #####   COVER    ##### */
@@ -512,10 +513,16 @@ a.lk-31 {
   .top_card .card-body{
     padding: 0px;
   }
-  .top_card {
+  .sponsored .category{
+    color: rgb(86, 86, 184)
+  }
+  .sponsored .card-body {
+    padding: 0px;
+  }
+  .top_card, .sponsored {
     padding-bottom: 30px;
   }
-  .top_card h4{
+  .top_card h4, .sponsored h4{
     
     font-family: "Roboto Condensed",sans-serif;
     font-size: 22px;
