@@ -474,15 +474,22 @@ a.lk-31 {
         /* FIRST ROW*/
   .first_row {
     padding-left: 48px;
-    max-width: 300px;
+    min-width: 150px;;
+    max-width: 400px;
   }
         /* CENTER ROW */
   .center_row {
-    max-width: 565px;
-    min-width: 430px;
-    padding-left: 50px;
-    margin-right: 3.5vh;
+    padding-left: 35px;
+    min-width: 400px;
+    max-width: 565px;;
+    
       
+  }
+  .last_row {
+    padding-left: 50px;
+    min-width: 100px;
+    max-width: 400px;;
+    padding-right: 48px;
   }
   .center_row img {
   width: 100%;  
@@ -506,10 +513,7 @@ a.lk-31 {
     
   }
         /* last ROW */
-  .last_row {
-    padding-right : 2vh;
-    max-width: 86vh;;
-  }
+  
   .last_row li {
     border-bottom: 2px solid #d4d4d4 !important;
   }
