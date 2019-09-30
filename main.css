@@ -199,7 +199,51 @@ a.lk-31 {
 .card {
   border: 0px;
 }
-
+.culture_and_travel {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(229, 231, 236);
+  /*rgb(244,245,247)*/
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.center_cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+.center_cards div {
+  background-color: rgb(229, 231, 236);
+}
+.c_card {
+  position: relative
+}
+.c_card h3 {
+  font: 18px/20px "Lora",serif !important;
+  font-size: 400 !important;
+  position: relative;
+  left: -8px;
+  overflow-wrap: normal;
+}
+.c_card p {
+  font: 17px/17px "Roboto","Helvetica",Arial,sans-serif !important;
+  position: relative;
+  left: -8px;
+  overflow-wrap: normal !important;
+  color: rgba(39,39,39,.5) !important;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.zone a {
+  display: inline-block;
+  background-color: #c2d4d7;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+.zone span{
+  color: #272727;
+  font: 300 13px/20px "Roboto","Helvetica",Arial,sans-serif;
+}
 /* #####  NAV BAR   ##### */
 
 /* #####   COVER    ##### */
@@ -370,10 +414,20 @@ a.lk-31 {
     text-transform: uppercase;
     color: rgb(112, 111, 111);
   }
+  .title_culture {
+    background-color: rgb(229, 231, 236);
+    position: relative;
+    height: 20px;
+  }
+  .title_culture span{
+    position: absolute;
+    bottom: 12px;
+    left: 10px;
+  }
         /* FIRST ROW*/
   .first_row {
     padding-left: 48px;
-    max-width: 400px;
+    max-width: 308px;
   }
         /* CENTER ROW */
   .center_row {
