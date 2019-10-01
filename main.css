@@ -507,6 +507,7 @@ a.lk-31 {
     border: none;
   }
   .first_row, .center_row, .last_row {
+    
     justify-content: flex-start;
     align-content: flex-start
   }
@@ -558,12 +559,16 @@ a.lk-31 {
     max-width: 400px;
   }
         /* CENTER ROW */
+  .center_row::-webkit-scrollbar {
+    display: none;
+  }
   .center_row {
     padding-left: 40px;
     min-width: 485px;
     max-width: 565px;;
-    
-      
+    max-height: 1980px;
+    overflow-y: scroll;
+    scrollbar-width: none;
   }
   .last_row {
     padding-left: 50px;
