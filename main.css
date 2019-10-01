@@ -526,7 +526,6 @@ a.lk-31 {
     border: none;
   }
   .first_row, .center_row, .last_row {
-    
     justify-content: flex-start;
     align-content: flex-start
   }
