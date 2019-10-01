@@ -343,7 +343,7 @@ a.lk-31 {
 
 
 .middle {
-  border: 2px solid red;
+  
   padding: 0px;
 }
 .flex-xs {
@@ -422,14 +422,17 @@ a.lk-31 {
 .jc-c {
   -webkit-justify-content: center;
   justify-content: center;
+ 
 }
 .ai-c {
   -webkit-align-items: center;
   align-items: center;
+  
 }
 .ai-fe {
   -webkit-align-items: flex-end;
   align-items: flex-end;
+  
 }
 .features_down_row {
   display: block;
@@ -789,9 +792,8 @@ a.lk-31 {
   top:-3px;
   width: 100%;
   color: black;
-  
   background-color: rgba(245, 238, 238,.8);
-  z-index: 10;
+  
 }
 
 .lk:hover {
