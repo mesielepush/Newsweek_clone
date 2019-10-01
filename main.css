@@ -446,6 +446,7 @@ a.lk-31 {
   content: " ";
   display: table;
 }
+
 /* #####  NAV BAR   ##### */
 
 /* #####   COVER    ##### */
@@ -724,6 +725,62 @@ a.lk-31 {
   .flex-sm-9 {
     width: 75%;
 }
+.col-sm-3 {
+  width: 25%;
+}
+.magazine article .category {
+  font: bold 16px/26px "Roboto Condensed",sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.top article {
+  height: 420px;;
+}
+.top h5 {
+  font-size: 20px;
+  position: relative;
+  color: black;
+  line-height: 20px;
+  display: block;
+  font-family: "Roboto Condensed",sans-serif;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;  
+}
+.top a:hover {
+  text-decoration: underline !important;
+  text-decoration-color: red !important;
+  color: black !important;
+}
+}
+.top img {
+  width: 100%;
+  min-height: 280px;
+}
+.category_middle {
+  font: bold 16px/26px "Roboto Condensed",sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  padding-top:6px;
+}
 
+
+.top .mag-cat{
+  
+  padding: 0 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+}
+.top .cat{
+  background-color: white ;
+  color: #F72210;
+}
 
 }
