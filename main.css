@@ -234,14 +234,23 @@ a.lk-31 {
   overflow-wrap: normal !important;
   color: rgba(39,39,39,.5) !important;
   margin-top: 15px;
-  margin-bottom: 0px;
+  
+}
+.zone {
+  position: relative;
+  margin-left: -10px;
+  min-width: 50px;
+  min-height: 40px;; 
 }
 .zone a {
   display: inline-block;
-  background-color: #c2d4d7;
-  margin-bottom: 15px;
-  text-decoration: none;
-  margin-left: 15px;
+  background-color: #aabbbe;
+  padding-left: 7px;
+  padding-right: 8px;
+  margin-top: 10px;
+  
+  margin-bottom: 7px;
+  
 }
 .zone span{
   color: #272727;
