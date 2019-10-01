@@ -384,6 +384,10 @@ a.lk-31 {
   margin-left: 10px;
   background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
 }
+.magazine .wrap {
+  position: relative;
+  display: block;
+}
 /* #####  NAV BAR   ##### */
 
 /* #####   COVER    ##### */
