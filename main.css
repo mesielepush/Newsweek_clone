@@ -356,7 +356,7 @@ a.lk-31 {
 
 .middle {
   
-  padding: 0px;
+  padding-top: 50px;
 }
 .flex-xs {
   display: -webkit-flex;
@@ -370,6 +370,11 @@ a.lk-31 {
   font: bold 19px/19px "Roboto Condensed",sans-serif;
   margin-bottom: 15px;
   text-transform: uppercase;
+  position: relative;
+}
+.INTHE {
+  position: relative;
+  top: 5px;
 }
 .n-title .icon-n {
   -webkit-flex: none;
@@ -599,16 +604,25 @@ header .date {
 
 .c_container {
   max-width: 1310px;
+  max-height: 1400px;
   margin-right: auto;
   margin-left: auto;
   background-color: white;
+  
+}
+.c_two {
+  max-width: 1310px;
+  
+  
+  background-color: white;
+  
 }
 .card {
   border: none;
 }
 .first_row, .center_row, .last_row {
   justify-content: flex-start;
-  align-content: flex-start
+  align-content: flex-start;
 }
 .c_card:nth-child(odd) {
   padding-right: 10px;
@@ -649,24 +663,42 @@ header .date {
   padding-left: 48px;
   min-width: 150px;;
   max-width: 400px;
+  
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  max-height: 1400px;
+  overflow-y: scroll;
+  scrollbar-width: 0px;
+  
 }
-      /* CENTER ROW */
-.center_row::-webkit-scrollbar {
+.first_row::-webkit-scrollbar {
   display: none;
 }
+      /* CENTER ROW */
+
 .center_row {
   padding-left: 40px;
   min-width: 485px;
   max-width: 565px;;
-  max-height: 1980px;
+  
+  max-height: 1400px;
   overflow-y: scroll;
-  scrollbar-width: none;
+  
+}
+.center_row::-webkit-scrollbar {
+  display: none;
 }
 .last_row {
   padding-left: 50px;
   min-width: 100px;
   max-width: 400px;;
   padding-right: 48px;
+  max-height: 1400px;
+  overflow-y: scroll;
+}
+.last_row::-webkit-scrollbar {
+  display: none;
 }
 .center_row img {
 width: 100%;  
