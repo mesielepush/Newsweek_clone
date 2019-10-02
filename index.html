@@ -539,17 +539,18 @@
                     <div class="content">
                         <div class="magazine">
                             <div class="flex-sm ai-fe row">
-                                <div class="flex-sm-3" style="padding-left:15px;padding-right:15px;">
+                                <div class="flex-sm-3 top_magazine" style="padding-left:15px;padding-right:15px;">
                                     <div class="wrap">
                                         <div class="image">
                                             <a href="">
-                                                <img src="img/octo.jpg" alt="">
+                                                <img src="img/octo.jpg" class="img-responsive"  alt="">
                                             </a>
                                         </div>
                                         <div class="category">
                                             <a href="">October 04 Issue</a>
                                         </div>
                                     </div>
+                                    
                                     <a href="" class="lk text-center">See All Features</a>
                                 </div>
                                 <div class="features_down_row flex-sm-9" style="padding-left:15px;padding-right:15px;">
@@ -683,6 +684,37 @@
                                         <a href="" class="article-link">GAME PLAN</a>
                                     </h5>
                                 </article>
+                                <script>Drupal.cmd.push(function(){
+
+                                    jQuery(".shuffle").each(function(){
+      
+                                       var x = Math.floor(Math.random() * jQuery("dt", this).length);
+      
+                                       jQuery(jQuery("dt", this)[x]).show();
+                                    });
+      
+                                    jQuery(".big-shots a").unbind('click').click(function(){
+      
+                                       var data_id = jQuery(this).attr('data-target');
+                                       jQuery.ajax({
+                                          url: "/tool/bigshot?cck=?",
+                                          data: {'id_ids':data_id, 'headline':'Big Shots', 'original':jQuery(document).scrollTop()},
+                                          dataType: "jsonp",
+                                          success: function(json) {
+      
+                                             if(json.id_id)	location.hash = "big-shots/"+json.id_id;
+                                             else	location.hash = "big-shots";
+      
+                                             //		console.log(json.html);
+                                             jQuery("<div />", {"id":"big-shots-overlay"}).appendTo("body");
+                                             jQuery("html,body").css({"overflow":"hidden"});
+      
+                                             jQuery("#big-shots-overlay").show().html(json.html);
+      
+                                          }
+                                       });
+                                    });
+                                 });</script>
                             </div>
                         </div>
                     </div>
