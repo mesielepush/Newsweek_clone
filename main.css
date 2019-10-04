@@ -1,3 +1,7 @@
+main {
+  display:flex;
+  flex-direction: column
+}
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -604,7 +608,7 @@ header .date {
 
 .c_container {
   max-width: 1310px;
-  max-height: 1400px;
+  max-height: auto;
   margin-right: auto;
   margin-left: auto;
   background-color: white;
@@ -867,4 +871,6 @@ width: 100%;
   
 }
 /* #####   COVER    ##### */
-
+.popo{
+  width: 520px;
+}
