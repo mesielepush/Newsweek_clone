@@ -616,10 +616,7 @@ header .date {
 }
 .c_two {
   max-width: 1310px;
-  
-  
   background-color: white;
-  
 }
 .card {
   border: none;
@@ -873,4 +870,154 @@ width: 100%;
 /* #####   COVER    ##### */
 .popo{
   width: 520px;
+}
+.subscribe-block {
+  position: relative;
+  padding-top: 40px;
+}
+.subscribe-block::before {
+  content: "";
+  display: block;
+  background-color: #f4f5f6;
+  height: 2px;
+  position: absolute;
+  top: 0;
+  left: -15px;
+  right: -15px;
+}
+.fd-c {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.block-title.red {
+  color: #f72210;
+}
+.block-title {
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: rgba(12,11,11,.8);
+}
+@media screen and (min-width: 992px){
+.col-md-5 {
+    width: 41.66666667%;
+}
+}
+
+@media screen and (min-width: 992px){
+.flex-md {
+    display: -webkit-flex;
+    display: flex;
+}}
+
+@media screen and (min-width: 992px){
+.col-md-5 {
+    width: 41.66666667%;
+}
+}
+@media screen and (min-width: 992px){ 
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}}
+.fn, .flex-n {
+  -webkit-flex: none;
+  flex: none;
+}
+.subscribe-block .col-l {
+  background-color: #f4f5f6;
+  padding: 24px 20px 20px;
+}
+.subscribe-block .col-l .image {
+  position: relative;
+  padding-bottom: 13px;
+  padding-right: 90px;
+}
+.subscribe-block .col-lg-4, .subscribe-block .col-lg-8 {
+  margin-bottom: 40px;
+}
+.fd-c {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.block-title.red {
+  color: #f72210;
+}
+.block-title {
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: rgba(12,11,11,.8);
+}
+.subscribe-block .col-lg-4, .subscribe-block .col-lg-8 {
+  margin-bottom: 40px;
+}
+.fd-c {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.foto {
+  background: url('../Newsweek_clone/img/apage.png') ;
+}
+
+
+@media screen and (max-width: 767px){ 
+.subscribe-block .col-l, .subscribe-block .col-r {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px){ 
+.subscribe-block .col-l .image {
+    display: inline-block;
+    margin-bottom: 15px;
+} }
+
+@media screen and (min-width: 768px){ 
+.subscribe-block .col-r .image {
+    max-width: 191px;
+} }
+@media screen and (min-width: 768px){ 
+.subscribe-block .col-r .image {
+    width: 48%;
+}
+ }
+ @media screen and (min-width: 768px){
+ body {
+     font-size: 15px;
+     line-height: 20px;
+ }
+ }
+ @media screen and (min-width: 768px){
+.subscribe-block .col-l, .subscribe-block .col-r .info {
+    padding: 30px;
+}
+ }
+@media screen and (min-width: 768px){
+.subscribe-block .col-r .info {
+    border-left-width: 0;
+} }
+
+.subscribe-block .col-r .info {
+  border: 1px solid #ebebeb;
+  padding: 20px;
+}
+
+ .fn, .flex-n {
+  -webkit-flex: none;
+  flex: none;
+}
+
+.subscribe-block h3 {
+  margin-bottom: 15px;
+}
+.subscribe-block h3 {
+  line-height: 28px;
+}
+h3 {
+  font-size: 24px;
+  line-height: 24px;
+}
+.subscribe-block p {
+  font: 300 15px/21px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-bottom: 25px;
 }
