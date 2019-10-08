@@ -4,9 +4,1400 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="https://g.newsweek.com/themes/newsweek/favicons/favicon-96x96.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="original.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="js.js"></script>
+    <title>Newsweek</title>
 </head>
-<body>
+<body class="html front not-logged-in no-sidebars page-home lemon fontf" data-gtm-category="NWUS-HOME">
     
+    <div id="block-nw-nw-header" class="block block-nw" data-gtm-action="Header_Link">
+        <div class="content">
+            <header class="page-header">
+                <div class="container">
+                    <div class="header-top flex-xs jc-sb ai-fe">
+                        <div class="col-1 flex-xs-6">
+                            <date>Mon, Oct 7, 2019</date>
+                        </div>
+                        <div class="col-2 flex-xs-6 flex-xs ai-c jc-fe">
+                          <a id="auth" class="lk-2" target="_blank" href="https://subscription.newsweek.com/auth">
+                          SignIn
+                          </a> 
+                          <a class="lk-3" target="_blank" href="https://subscription.newsweek.com/subscribe?utm_source=NWwebsite&utm_medium=top-nav&utm_campaign=subscribe-button#12weeks">
+                              Subscribe
+                              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 14"
+                              style="enable-background:new 0 0 8 14;" xml:space="preserve">
+                              <g id="arrow-right">
+                              <defs>
+                                <rect id="SVGID_1_" width="8" height="14"/>
+                              </defs>
+                              <clipPath id="SVGID_2_">
+                                <use xlink:href="#SVGID_1_" style="overflow:visible;"/>
+                              </clipPath>
+                              <g id="Shape_1" class="st0">
+                              <g>
+                                <polygon
+                                class="st1"
+                                points="8,7 1.1,0 0,1.1 5.9,7 0,12.9 1.1,14 8,7 8,7	"/>
+                              </g>
+                              </g>
+                              </g></svg>
+                           </a>
+                        </div>
+                    </div>
+                    <div class="header-middle ">
+                        <a class="brand" href="/">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+                                <g>
+                                    <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7" />
+                                </g>
+                            </svg>
+                        </a> <span class="genericon genericon-menu"><span></span></span>
+                    </div>
+                    <nav class="header-bottom">
+                        <div class="flex-md jc-c">
+                            <form action="/search/site/" method="post" id="search-block-form--2" accept-charset="UTF-8">
+                                <div>
+                                    <div class="container-inline">
+                                        <div class="form-item form-type-textfield form-item-search-block-form">
+                                            <label class="element-invisible" for="edit-search-block-form--4">Search </label>
+                                            <input title="Enter the terms you wish to search for." placeholder="Search" type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+                                        </div>
+                                        <div class="form-actions form-wrapper" id="edit-actions--2">
+                                            <input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" />
+                                        </div>
+                                        <input type="hidden" name="form_build_id" value="form-fZ682WsdOVy0CvQPbIUL2T6In25EQtbU6DClgu3ttr8" />
+                                        <input type="hidden" name="form_token" value="NjTiMzKKqA3lZiZaca71FcNN-AlbGkwHKY6-BFpKd3U" />
+                                        <input type="hidden" name="form_id" value="search_block_form" />
+                                    </div>
+                                </div>
+                            </form>
+                            <ul class="page-nav">
+                                <li class="first leaf  active-trail"><a href="/us" title="">U.S.</a></li>
+                                <li class="leaf "><a href="/world" title="">World</a></li>
+                                <li class="leaf "><a href="/business" title="">Business</a></li>
+                                <li class="leaf "><a href="/tech-science" title="">Tech & Science</a></li>
+                                <li class="leaf "><a href="/culture" title="">Culture</a></li>
+                                <li class="leaf "><a href="/newsgeek" title="">Newsgeek</a></li>
+                                <li class="leaf "><a href="/sports" title="">Sports</a></li>
+                                <li class="leaf "><a href="/health" title="">Health</a></li>
+                                <li class="leaf "><a href="/opinion" title="">Opinion</a></li>
+                                <li class="last leaf "><a href="/vantage" title="">Vantage</a></li>
+                            </ul>
+                        </div>
+                        <div id="amp_suggestions_container1" class="marketplace-suggestion"></div>
+                    </nav>
+                </div>
+            </header>
+        </div>
+    </div>
+    <div class="helper container-fluid">
+        <div class="tabs"></div>
+    </div>
+    <div class="main container-fluid">
+        <div class="colwrap row sticky-scroll">
+            <div class="col4">
+                <div id="sticky4">
+                    <div id="block-nw-home-featured-story2" class="block block-nw">
+                        <div class="content"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col1">
+                            <div id="sticky1">
+                                <div id="block-nw-home-featured-stories" class="block block-nw">
+                                    <div class="content">
+                                        <div class="feature2">
+                                            <div class="block-title">
+                                                FEATURED STORIES</div>
+                                            <article>
+                                                <div class="wrap">
+                                                    <div class="category"><a href="">tech & Science</a></div>
+                                                    <div class="image">
+                                                        <a href="#">
+                                                            <img src="img/climate.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <h3><a href="#">Why Climate Deniers Hate Activists So Much</a></h3>
+                                                <div class="summary">Climate denialism expert Martin Hultman is currently working on a project examining the formulation and spread of conspiracy theories around Greta Thunberg.</div>
+                                            </article>
+                                            <article>
+                                                <div class="wrap">
+                                                    <div class="category"><a href="">News</a></div>
+                                                    <div class="image">
+                                                        <a href="#">
+                                                            <img src="img/nyse.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <h3>
+                                                    <a href="#">Many Americans Are Unprepared for a Recession, Survey Finds</a>
+                                                </h3>
+                                                <div class="summary">"Every household that doesn't have sufficient savings will be living on the edge when a recession arises, and in a sense, they're living on the edge even before a recession arises."</div>
+                                            </article>
+                                            <article>
+                                                <div class="wrap">
+                                                    <div class="category"><a href="/politics">Politics</a></div>
+                                                    <div class="image">
+                                                        <a href="">
+                                                            <img src="img/silva.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <h3>
+                                                    <a href="#">UNITED NATIONS BANS SRI LANKAN TROOPS OVER GENERAL ACCUSED OF WAR CRIMES</a>
+                                                </h3>
+                                                <div class="summary">A month after the appointment of Lt. General Shavendra Silva as chief of the Sri Lankan army, the United Nations announced a ban on Sri Lankan troops, citing concern over Silva's involvement in the death of tens of thousands of Sri Lankan Tamils during civil war.</div>
+                                            </article>
+                                            <article>
+                                                <div class="wrap">
+                                                    <div class="category"><a href="#">Analysis</a></div>
+                                                    <div class="image">
+                                                        <a href="#">
+                                                            <img src="img/pentagon.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <h3>
+                                                    <a href="">Pentagon's Silence on Afghanistan Slammed: The 'Zero O'Clock Follies'</a></h3>
+                                                <div class="summary">The peace talks are collapsing and the violence still claims U.S. service members' lives, but it's been over a year since the Pentagon held a press briefing on America's longest war.</div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="block-ibtmedia-special-item-right1" class="block block-ibtmedia-special-item">
+                                    <div class="content">
+                                        <div class="sponsor">
+                                            <div class="wrap">
+                                                <div class="category">SPONSORED INSIGHT</div>
+                                                
+                                                    <a href="#" target="_blank">
+                                                        <img src="img/abet.jpg" alt="">
+                                                    </a>
+                                            </div>
+                                            <div class="info">
+                                                <h3><a href="#" target="_blank">Why You Should Be An Engineer & Why ABET Is Important to that Path.</a></h3>
+                                                <div class="summary">Do you dream of changing the world? Do you want to make a practical difference in people’s lives? Engineers do both these things. Find out how to join them.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="block-ibtmedia-special-item-right2" class="block block-ibtmedia-special-item">
+                                    <div class="content">
+                                        <div class="sponsor">
+                                            <div class="wrap">
+                                                <div class="category">SPONSORED INSIGHT</div>
+                                                <a href="#" target="_blank">
+                                                        <img src="img/infer.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info">
+                                                <h3>
+                                                    <a href="#" target="_blank">Infertility - A look at the leading clinics in the field</a>
+                                                </h3>
+                                                <div class="summary">There can be family related, culturally linked, and even political reasons why prospective parents face significant challenges seeking conception treatment. Who can they turn to?</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="block-ibtmedia-special-item-right3" class="block block-ibtmedia-special-item">
+                                    <div class="content">
+                                        <div class="sponsor">
+                                            <div class="wrap">
+                                                <div class="category">Survey</div>
+                                                <a href="">
+                                                    <img src="img/nursing.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info">
+                                                <h3>
+                                                    <a href="" target="_blank">Best Nursing Homes</a>
+                                                </h3>
+                                                <div class="summary">Newsweek is partnering with the respected global data research firm Statista Inc. to establish a ranking of Best Nursing Homes. The final rankings will be published in Newsweek magazine and on Newsweek.com</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col2">
+                            <div id="sticky2">
+                                <div class="flex-sm fd-c">
+                                    <div id="block-nw-home-featured-story" class="block block-nw order-1">
+                                        <div class="content">
+                                            <div class="feature2">
+                                                <div class="block-title">
+                                                    Top Story</div>
+                                                <article>
+                                                    <div class="wrap">
+                                                        <div class="category"><a href="/analysis">World</a></div>
+                                                        <div class="image">
+                                                            <a href="#">
+                                                                <img src="img/trump.jpg" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <h1 class="h2">
+                                                        <a href="#">Trump's Call With Ukrainian President Dubbed 'Diplomatic Disaster' for Kiev</a>
+                                                    </h1>
+                                                    <div class="summary">The Kiev-based New Europe Center told Newsweek that Ukraine is now caught in a domestic U.S. political battle.</div>
+                                                    <ul class="related">
+                                                        <li><a href="#">Beto O'Rourke: Donald Trump 'Poses a Mortal Threat to People of Color'</a></li>
+                                                        <li><a href="#">Joe Biden Asked About Responsibility for Slavery During Democratic Debate, Answers About Venezuela</a></li>
+                                                    </ul>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="block-nw-home-featured-more" class="block block-nw order-3">
+                                        <div class="content">
+                                            <div class="feature2">
+                                                <div class="block-title">
+                                                    MORE STORIES</div>
+                                                <article class="clearfix">
+                                                    <div class="image">
+                                                        <a href="#">
+                                                            <img src="img/kenya.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <h4>
+                                                        <a href="#">Kenyan Police on High Alert Over Potential Terrorist Attacks Around Mombasa</a>
+                                                    </h4>
+                                                    <div class="summary">Kenyan police have been given orders to guard "colleges, churches, hotels, beaches and supermarkets" after receiving intelligence that several terrorist attacks were to be carried out around the city of Mombasa.</div>
+                                                </article>
+                                                <article class="clearfix">
+                                                    <div class="image">
+                                                        <a href="#">
+                                                            <img src="img/sanders.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <h4><a href="#">Walmart Would Have Paid Up to $794 Million More in 2018 Under Sanders' Tax</a></h4>
+                                                    <div class="summary">"The goal of this income inequality tax is not just to raise more revenue. It is to send a message to corporate America: stop paying your workers inadequate wages while CEOs make outrageous compensation packages," reads the proposal from Senator Bernie Sanders.</div>
+                                                </article>
+                                                <article class="clearfix">
+                                                    <div class="image">
+                                                        <a href="/boycott-abc-trends-twitter-ocasio-cortez-aoc-ad-fire-photo-1459120">
+                                                            <img src="img/snow.png" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <h4>
+                                                        <a href="#">Record September Snowfall Hits Montana, Governor Declares Winter Emergency</a>
+                                                    </h4>
+                                                    <div class="summary">A surprise burst of September snowfall in the northern Rocky Mountains prompted the Montana Governor to declare an emergency Sunday as several feet of snow blocked roadways and buried homes across several states.</div>
+                                                </article>
+                                                <article class="clearfix">
+                                                    <div class="image">
+                                                        <a href="/human-corpse-year-burial-scientist-1459113">
+                                                            <img src="img/saudi.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <h4>
+                                                        <a href="#">Saudi Crown Prince Says Jamal Khashoggi Murder Hurt Him</a>
+                                                    </h4>
+                                                    <div class="summary">Khashoggi was murdered by a Saudi hit squad in the country's Istanbul consulate in 2018, allegedly under Mohammed bin Salman's direct orders.</div>
+                                                </article>
+                                                <article class="clearfix">
+                                                    <div class="image">
+                                                        <a href="/anti-ice-protesters-rally-outside-jeff-bezos-home-1458926">
+                                                            <img src="img/hillary.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <h4>
+                                                        <a href="#">Hillary Clinton Trolls Trump as Impeachment Talk Ramps Up: 'But My Emails'</a>
+                                                    </h4>
+                                                    <div class="summary">
+                                                            Hillary Clinton Trolls Trump as Impeachment Talk Ramps Up: 'But My Emails'</div>
+                                                </article>
+                                                <article class="clearfix">
+                                                    <div class="image">
+                                                        <a href="/russia-kremlin-smolenkov-putin-montenegro-1459110">
+                                                            <img src="img/tesla.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <h4>
+                                                        <a href="#">Drivers Say Teslas Getting Into Accidents With New Smart Summon Feature</a>
+                                                    </h4>
+                                                    <div class="summary">The "Smart Summon" mode, which uses GPS technology to pick up passengers, cost drivers extra—and some of them aren't happy with the feature.</div>
+                                                </article>
+                                                <article class="clearfix">
+                                                    <div class="image">
+                                                        <a href="#">
+                                                            <img src="img/21.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <h4>
+                                                        <a href="#">Forever 21 Goes Bankrupt: How Many Stores Are Closing?</a>
+                                                    </h4>
+                                                    <div class="summary">
+                                                            Clothing company said it will continue to operate in a "business as usual manner" after filing for voluntary Chapter 11 bankruptcy.</div>
+                                                </article>
+                                                <article class="clearfix">
+                                                    <div class="image">
+                                                        <a href="#">
+                                                            <img src="img/tr.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <h4>
+                                                        <a href="#">Military Expert Slams Trump's Tweet Quoting 'Civil War-Like Fracture'</a>
+                                                    </h4>
+                                                    <div class="summary">A professor in international relations has responded to a series of Trump tweets: "You can not brush it off as 'he just talks that way.'"</div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="culture-stories order-2">
+                                        <div class="block-title">
+                                            <a href="/culture">Culture & Travel</a></div>
+                                        <div class="culture-items flex-sm flex-wrap">
+                                            <div class="culture-item">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img src="img/kenny.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="info">
+                                                    <div class="title">
+                                                        <a href=#">Uncharted Territory: A Queer Journey Through The Kenyan Bush</a></div>
+                                                    <div class="summary">Kenny Porpora, author of 'The Autumn Balloon,' joins an LGBT tour operator in Kenya, where homosexuality is punishable by up to 14 years in prison.</div>
+                                                    <div class="tags"><a href="#" class="active">Africa</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="culture-item">
+                                                <div class="image">
+                                                    <a href="">
+                                                        <img src="img/air.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="info">
+                                                    <div class="title">
+                                                        <a href="#">The World's Best Airlines, Ranked</a></div>
+                                                    <div class="summary">For best airline overall, Asian and Middle Eastern airlines triumphed.</div>
+                                                    <div class="tags"><a href="" class="active">Slideshows</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="culture-item">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img src="img/glow.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="info">
+                                                    <div class="title">
+                                                        <a href="#">Underground: The Most Beautiful Caves in the World</a></div>
+                                                    <div class="summary">Caves have an almost primal appeal—they hold the secrets to our past and are the last vestige of exploration.</div>
+                                                    <div class="tags"><a href="#" class="active">Downtown abby</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="culture-item">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img src="img/cocktail.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="info">
+                                                    <div class="title">
+                                                        <a href="#">9 Best Cocktail Bars in New York</a></div>
+                                                    <div class="summary">The Big Apple cocktail scene has never been less pretentious—and more expansive—than it is right now.</div>
+                                                    <div class="tags"><a href="" class="active">Cocktails</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col3 content-right">
+                <div id="sticky3">
+                    <div id="block-nw-opinion" class="block block-nw">
+                        <div class="content">
+                            <div class="feature2 subfeature2">
+                                <div class="block-title">
+                                    <a href="/opinion">OPINION</a></div>
+                                <ul>
+                                    <li class="flex-xs">
+                                        <div class="image headshot">
+                                            <a href="">
+                                                <img src="img/gavin-newsom.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="info">
+                                            <a href="#">California's Ambitious Climate Policies Are Fueling Our Economy—and Trump Won't Stop Us</a>
+                                            <div class="byline"> BY GAVIN NEWSON</div>
+                                        </div>
+                                    </li>
+                                    <li class="flex-xs">
+                                        <div class="image headshot">
+                                            <a href="#" >
+                                                <img src="img/stern.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="info">
+                                            <a href="#">
+                                                    Meeting the Challenge of Climate Change Is Key to 21st-Century Urban Growth</a>
+                                            <div class="byline">BY NICHOLAS STERN</div>
+                                        </div>
+                                    </li>
+                                    <li class="flex-xs">
+                                        <div class="image headshot">
+                                            <a href="#" >
+                                                <img src="img/char.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="info">
+                                            <a href="#">
+                                                    Meet Elizabeth Warren, Philosopher Queen</a>
+                                            <div class="byline">BY CHARLIE KIRK</div>
+                                        </div>
+                                    </li>
+                                    <li class="flex-xs">
+                                        <div class="image headshot">
+                                            <a href="">
+                                                <img src="img/mallet.png">
+                                            </a>
+                                        </div>
+                                        <div class="info">
+                                            <a href="#">
+                                                Want to Fight Climate Change? Listen to Young People of Color</a>
+                                            <div class="byline"> BY NYIESHA MALLET AND ASLI MWAAFRIKA</div>
+                                        </div>
+                                    </li>
+                                    <li class="flex-xs">
+                                        <div class="image headshot">
+                                            <a href="#">
+                                                <img src="img/tony.png"></a>
+                                        </div>
+                                        <div class="info">
+                                            <a href="#">
+                                                    America Looks Away From the Suffering in Yemen—Until Oil Is at Stake</a>
+                                            <div class="byline"> BY ANTHONY HARWOOD</div>
+                                        </div>
+                                    </li>
+                                    <li class="flex-xs">
+                                        <div class="image headshot">
+                                            <a href="#">
+                                                <img src="img/desantis.png">
+                                            </a>
+                                        </div>
+                                        <div class="info">
+                                            <a href="#">The Only Winner Out of Nancy Pelosi's Drug Plan Will Be China</a>
+                                            <div class="byline">BY NEWT GINGRICH AND JOE DESANTIS</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="block-nw-subfeatured" class="block block-nw" data-gtm-action="Latest_Headlines">
+                        <div class="content">
+                            <div class="feature2 subfeature2">
+                                <div class="block-title">
+                                    <a href="/newsfeed">LATEST NEWS</a></div>
+                                <ul>
+                                    <li class="flex-xs">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="img/mco.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="info">
+                                            <a href="#">Why McConnell Says He May Have 'No Choice' But to Consider Impeachment</a>
+                                        </div>
+                                    </li>
+                                    <li class="flex-xs">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="img/mat.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="info">
+                                            <a href="#">'Religious Motivation' Suspected in Virginia Triple Homicide</a>
+                                        </div>
+                                    </li>
+                                    <li class="flex-xs">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="img/hop.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="info">
+                                            <a href="#">'Stranger Things' Season 4: Fan Theories About Hopper</a>
+                                        </div>
+                                    </li>
+                                    <li class="flex-xs">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="img/cvs.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="info">
+                                            <a href="#">
+                                                    Why CVS Is Recalling Heartburn Drug and Alternative Medication Out There</a>
+                                            </div>
+                                    </li>
+                                    <li class="flex-xs">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="img/memo.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="info"><a href="#">Trump-Putin Calls Might Be Hidden to Save Embarrassment: Former WH Official</a></div>
+                                    </li>
+                                    <li class="flex-xs">
+                                        <div class="image">
+                                            <a href="">
+                                                <img src="img/toil.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="info">
+                                            <a href="#">Climate Change May Take Away Your Ability to Flush the Toilet</a>
+                                        </div>
+                                    </li>
+                                    <li class="flex-xs">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="img/peter.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="info">
+                                            <a href="#">'Bachelor' Spoilers: Who Got The First Impression Rose?</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="block-fusion-newsletters-fusion-newsletter-signup" class="block block-fusion-newsletters" data-gtm-action="Newsletter_Signup">
+                        <div class="content">
+                            <div class="newsletter-signup">
+                                <div class="n-title flex-xs ai-c"><span class="icon-n"></span>Sign up for our Newsletter</div>
+                                <a href="https://email.newsweek.com/landing/newsletter" class="lk">Sign up</a>
+                                <br> <a href="https://email.newsweek.com/landing/newsletter" class="lk-5">Update your preferences &#187;</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-bottom" style="margin-top:20px;">
+            <div id="block-nw-magazine-in-magazine" class="block block-nw-magazine" data-gtm-action="In_The_Magazine">
+                <div class="content">
+                    <div class="magazine">
+                        <div class="flex-sm ai-fe row">
+                            <div class="flex-sm-3" style="padding-left:15px;padding-right:15px">
+                                <div class="wrap">
+                                    <div class="image">
+                                        <a href="#">
+                                            <img src="img/octo.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="category"><a href="/2019/09/20/issue.html">Octuber 2 ISSUE</a></div>
+                                </div>
+                                <a href="" class="lk gray">See All Features</a></article>
+                            </div>
+                            <div class="flex-sm-9" style="padding-left:15px;padding-right:15px">
+                                <div class="n-title flex-xs jc-c ai-c"><span class="icon-n"></span> IN THE MAGAZINE</div>
+                                <div class="row top">
+                                    <article class="col-sm-4">
+                                        <div class="image">
+                                            <a href="/2019/09/20/anxiety-medication-drugs-science-exercise-brain-1457006.html">
+                                                <img src="img/ban.jpg" alt="">
+                                                <span class="overlay article-overlay"></span>
+                                            </a>
+                                        </div>
+                                        <div class="category"><span class="mag-cat">Cover</span> <span class="cat">
+                                            <a href="Politics">Politics</a></span>
+                                        </div>
+                                        <h5>
+                                            <a href="#" class="article-link">Three LGBTQ Cases Set to Test the Supreme Court's Conservative Principles
+                                            <span class="overlay article-overlay"></span>
+                                            </a>
+                                        </h5>
+                                    </article>
+                                    <article class="col-sm-4">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="img/root.jpg" alt="">
+                                                <span class="overlay article-overlay"></span>
+                                            </a>
+                                        </div>
+                                        <div class="category"><span class="mag-cat">Features</span> <span class="cat">
+                                            <a href="#">World</a></span>
+                                        </div>
+                                        <h5>
+                                            <a href="" class="article-link">Dramatic Photos Capture How Humans Have Changed the Earth
+                                                <span class="overlay article-overlay"></span></a></h5>
+                                    </article>
+                                    <article class="col-sm-4">
+                                        <div class="image">
+                                            <a href="/2019/09/20/benjamin-netanyahu-election-win-iran-allies-attacks-1457021.html">
+                                                <img src="img/per.jpg" alt="">
+                                                <span class="overlay article-overlay"></span>
+                                            </a>
+                                        </div>
+                                        <div class="category"><span class="mag-cat">Downloads</span> <span class="cat">
+                                            <a href="/world">Politics</a></span></div>
+                                        <h5>
+                                            <a href="#" class="article-link">Senator Mark Warner Says Social Media's 'Wild, Wild West' is Ending
+                                                <span class="overlay article-overlay"></span>
+                                            </a>
+                                        </h5>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row bottom">
+                            <article class="col-sm-3">
+                                <div class="image">
+                                    <a href="/2019/09/20/real-cost-blue-jeans-labor-environment-fashionopolis-book-extract-1457027.html">
+                                        <img src="img/lexi.jpg" alt="">
+                                        <span class="overlay article-overlay"></span>
+                                    </a>
+                                </div>
+                                <div class="category"><span class="mag-cat">Downtime</span> <span class="cat">
+                                    <a href="/culture">Culture</a></span></div>
+                                <h5>
+                                    <a href="#" class="article-link">When LexisNexis Makes a Mistake, You Pay For It
+                                        <span class="overlay article-overlay"></span>
+                                    </a>
+                                </h5>
+                            </article>
+                            <article class="col-sm-3">
+                                <div class="image">
+                                    <a href="/2019/09/20/fast-fashion-dana-thomas-interview-author-fashionopolis-1457033.html">
+                                        <img src="img/map.jpg" alt="">
+                                        <span class="overlay article-overlay"></span>
+                                    </a>
+                                </div>
+                                <div class="category"><span class="mag-cat">Downtime</span> <span class="cat">
+                                    <a href="/culture">Culture</a></span></div>
+                                <h5>
+                                    <a href="#" class="article-link"> 9 Most Beautiful Houses of Worship Around the World
+                                        <span class="overlay article-overlay"></span>
+                                    </a>
+                                </h5>
+                            </article>
+                            <article class="col-sm-3">
+                                <div class="image">
+                                    <a href="/2019/09/20/andre-de-shields-hadestown-tony-speech-interview-1456879.html">
+                                        <img src="img/culy.jpg" alt="">
+                                        <span class="overlay article-overlay"></span>
+                                    </a>
+                                </div>
+                                <div class="category"><span class="mag-cat">Downtime</span> <span class="cat">
+                                    <a href="/culture">Culture</a></span></div>
+                                <h5>
+                                    <a href="#" class="article-link">Michelle Dockery on the Downton Abbey Movie
+                                        <span class="overlay article-overlay"></span>
+                                    </a>
+                                </h5>
+                            </article>
+                            <article class="col-sm-3">
+                                <div class="big-shots" data-id="front_page" revision="" data-path="/ajax/bigshots/nodequeue/bigshots_front_page/">
+                                    <div class="overlay"></div>
+                                    <div class="slide-wrapper bigshot-wrapper">
+                                        <div class="wrap">
+                                            <div class="image">
+                                                <a class="cover mask" href="#" data-target="1524314,1524318,1524320,1524323"></a>
+                                                <img src="img/popo.png" alt="">
+                                            </div>
+                                            <div class="category">Big Shots</div>
+                                        </div>
+                                        <h5 class="title"> <a class="cover" href="#">GAMEPLAN</a>
+                                        </h5>
+                                    </div>
+                                    <div class="content"></div>
+                                </div>
+                            </article>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---jklfjl-->
+            <div id="block-nw-editors-pick" class="block block-nw">
+                <div class="content">
+                    <div class="n-title flex-xs jc-c ai-c"><span class="icon-n"></span> EDITOR'S PICK</div>
+                    <div class="feature2 flex-sm flex-wrap row">
+                        <article class="col-sm-6 col-md-3">
+                            <div class="wrap">
+                                <div class="category"><a href="#">World</a></div>
+                                <div class="image">
+                                    <a href="#">
+                                        <img src="img/sunday.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <h3>
+                                <a href="#">Why Meghan Markle Is Suing Mail on Sunday Newspaper </a>
+                            </h3>
+                            <div class="summary">In a statement Tuesday, Prince Harry said he's been a "silent witness" to Meghan's "private suffering for too long."</div>
+                        </article>
+                        <article class="col-sm-6 col-md-3">
+                            <div class="wrap">
+                                <div class="category"><a href="#">health</a></div>
+                                <div class="image">
+                                    <a href="#">
+                                        <img src="img/patient.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <h3>
+                                <a href="#">Gabbard Fact Checks Ryan After He Inaccurately Claims Taliban Attacked U.S.</a>
+                            </h3>
+                            <div class="summary">"Al Qaeda attacked us on 9/11. That's why I and so many other people joined the military, to go after Al Qaeda. Not the Taliban," Gabbard explained.</div>
+                        </article>
+                        <article class="col-sm-6 col-md-3">
+                            <div class="wrap">
+                                <div class="category"><a href="world">world</a></div>
+                                <div class="image">
+                                    <a href="#">
+                                        <img src="img/facebook.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <h3>
+                                <a href="#">Facebook Removes 'Police Lives Matter' Pages Run From Kosovo</a>
+                            </h3>
+                            <div class="summary">These are the latest seemingly American pages to be taken down after it was revealed they were run from Eastern Europe.</div>
+                        </article>
+                        <article class="col-sm-6 col-md-3">
+                            <div class="wrap">
+                                <div class="category"><a href="/tech-science">Tech & Science</a></div>
+                                <div class="image">
+                                    <a href="#">
+                                        <img src="img/bali.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <h3>
+                                <a href="#">Climate Change Could Cause Conflict Between Species as They Adapt and Move</a>
+                            </h3>
+                            <div class="summary">For animal species to survive climate change, they will have to genetically adapt or shift their ranges—or both.</div>
+                        </article>
+                        <article class="col-sm-6 col-md-3">
+                            <div class="wrap">
+                                <div class="category"><a href="#">world</a></div>
+                                <div class="image">
+                                    <a href="">
+                                        <img src="img/pompeo.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <h3>
+                                <a href="/#">Mike Pompeo Smiles as Protester in Italy Hands Him a Block of Cheese</a>
+                            </h3>
+                            <div class="summary">The U.S. secretary of state was shaking hands with the Italian prime minister when a protester approached with a block of Parmigiano Reggiano.</div>
+                        </article>
+                        <article class="col-sm-6 col-md-3">
+                            <div class="wrap">
+                                <div class="category"><a href="">U.S.</a></div>
+                                <div class="image">
+                                    <a href="/climate-change-soil-water-1458983">
+                                        <img src="img/empty.pg.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <h3>
+                                <a href="#">Chicago School Faces Lawsuit Over Claim Teachers Abused Disabled Child</a>
+                            </h3>
+                            <div class="summary">Zacharion Townsend has trouble when it comes to fine motor skills, explained his father. It was those struggles that caused his second grade teacher to lash out against the student, he claimed.</div>
+                        </article>
+                        <article class="col-sm-6 col-md-3">
+                            <div class="wrap">
+                                <div class="category"><a href="/culture">U.S</a></div>
+                                <div class="image">
+                                    <a href="#">
+                                        <img src="img/army.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <h3>
+                                <a href="#">Twitter Exec Revealed to Be Soldier Linked to Spreading Disinformation</a>
+                            </h3>
+                            <div class="summary">Gordon MacMillan, who joined Twitter in 2013 and is listed as the company's Head of Editorial for EMEA, is also part of the British Army's "information warfare" unit.</div>
+                        </article>
+                        <article class="col-sm-6 col-md-3">
+                            <div class="wrap">
+                                <div class="category"><a href="#">U.S.</a></div>
+                                <div class="image">
+                                    <a href="#">
+                                        <img src="img/sedition.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <h3>
+                                <a href="#">Trump's Civil War Tweet Is Seditious and a 'Grave Crime': Army Officer</a>
+                            </h3>
+                            <div class="summary">Retired Lieutenant Colonel Ralph Peters said Trump's weekend Twitter tirade shows he is a "frightened, frightened man."</div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <div id="block-fusion-arbitrage-picture-galleries" class="block block-fusion-arbitrage">
+                <div class="content">
+                    <div class="picture-galleries nw">
+                        <div class="n-title flex-xs jc-c ai-c"><span class="icon-n"></span>
+                            <a href="/topic/slideshows">FEATURED SLIDESHOWS</a></div>
+                        <div class="row">
+                            <article class="col-sm-4">
+                                <div class="image">
+                                    <a href="#" class="image-link article-link">
+                                        <img src="img/wedding.jpg" alt="">
+                                        <span class="overlay article-overlay"></span>
+                                    </a>
+                                    <a href="#" class="count-link">7</a></div>
+                                <h4>
+                                    <a href="#" class="article-link">Hailey and Justin Bieber Wedding Pictures: Candid Photos from the Big Day
+                                    <span class="overlay article-overlay"></span>
+                                    </a>
+                                </h4>
+                            </article>
+                            <article class="col-sm-4">
+                                <div class="image">
+                                    <a href="#" class="image-link article-link">
+                                        <img src="img/alone.jpg" alt="">
+                                        <span class="overlay article-overlay"></span>
+                                    </a>
+                                    <a href="#" class="count-link">4</a></div>
+                                <h4>
+                                    <a href="#" class="article-link">10 Queer Rebellions Before Stonewall
+                                        <span class="overlay article-overlay"></span>
+                                    </a>
+                                </h4>
+                            </article>
+                            <article class="col-sm-4">
+                                <div class="image">
+                                    <a href="" class="image-link article-link">
+                                        <img src="img/brujo.jpg" alt="">
+                                        <span class="overlay article-overlay"></span>
+                                    </a>
+                                    <a href="#" class="count-link">8</a></div>
+                                <h4>
+                                    <a href="#" class="article-link">Cruise the Galapagos While Conserving Wildlife Found Nowhere Else
+                                        <span class="overlay article-overlay"></span>
+                                    </a>
+                                </h4>
+                            </article>
+                            <article class="col-sm-4">
+                                <div class="image">
+                                    <a href="/american-masterpieces-architecture-paintings-monuments-that-have-shaped-american-art-1454343" class="image-link article-link">
+                                        <img src="img/still.jpg" alt="">
+                                        <span class="overlay article-overlay"></span>
+                                    </a>
+                                    <a href="#" class="count-link">11</a></div>
+                                <h4>
+                                    <a href="#" class="article-link">The New Documentary Trying to Save the Most Trafficked Mammals in the World
+                                        <span class="overlay article-overlay"></span>
+                                    </a>
+                                </h4>
+                            </article>
+                            <article class="col-sm-4">
+                                <div class="image">
+                                    <a href="#" class="image-link article-link">
+                                        <img src="img/house.jpg" alt="">
+                                        <span class="overlay article-overlay"></span>
+                                    </a>
+                                    <a href="#" class="count-link">16</a></div>
+                                <h4>
+                                    <a href="#" class="article-link">American Masterpieces: Singular Expressions of National Genius
+                                        <span class="overlay article-overlay"></span>
+                                    </a>
+                                </h4>
+                            </article>
+                            <article class="col-sm-4">
+                                <div class="image">
+                                    <a href="#" class="image-link article-link">
+                                        <img src="img/exterior.jpg" alt="">
+                                        <span class="overlay article-overlay"></span>
+                                    </a>
+                                    <a href="#" class="count-link">16</a></div>
+                                <h4>
+                                    <a href="#" class="article-link">An Eco-Gorilla Opens in Rwanda
+                                        <span class="overlay article-overlay"></span>
+                                    </a>
+                                </h4>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="block-nw-section-picks" class="block block-nw nomobile">
+                <div class="content">
+                    <div class="section-picks">
+                        <div class="block-title">
+                            <a href="/us">U.S.</a></div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <article>
+                                    <div class="image">
+                                        <a href="#">
+                                            <img src="img/fest.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <h4>
+                                        <a href="#">'Trumpstock' Festival Featuring Revenge Pornographer Is Denied Permit</a>
+                                    </h4>
+                                </article>
+                            </div>
+                            <div class="col-sm-4">
+                                <article>
+                                    <div class="image">
+                                        <a href="#">
+                                            <img src="img/mom.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <h4>
+                                        <a href="#">Botham Jean's Brother Says Murdered Sibling Would Have Supported Hug</a>
+                                    </h4>
+                                </article>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="feature2 subfeature2">
+                                    <ul>
+                                        <li class="flex-xs">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="img/crash.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info"><a href="#">Five Killed After Cargo Plane Crash-lands In Ukraine</a></div>
+                                        </li>
+                                        <li class="flex-xs">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="img/greta.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info"><a href="#">Thunberg Mocks Putin in Twitter Bio: 'A Kind But Poorly Informed Teenager'</a></div>
+                                        </li>
+                                        <li class="flex-xs">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="img/york.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info"><a href="#">New York Pizza Restaurant Customer's Racial Tirade Caught on Film</a></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-title">
+                            <a href="/world">World</a></div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <article>
+                                    <div class="image">
+                                        <a href="#">
+                                            <img src="img/view.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <h4>
+                                        <a href="#">Autism Act Doesn't Do Enough to Address Diagnosis Gender Gap, Say Experts</a>
+                                    </h4>
+                                </article>
+                            </div>
+                            <div class="col-sm-4">
+                                <article>
+                                    <div class="image">
+                                        <a href="#">
+                                            <img src="img/tape.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <h4>
+                                        <a href="#">Police Investigating Stabbing of Man Found in Bullet-Riddled Porsche</a>
+                                    </h4>
+                                </article>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="feature2 subfeature2">
+                                    <ul>
+                                        <li class="flex-xs">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="img/convention.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info">
+                                                <a href="#">Fox Host Takes Back Claim That Whistleblower Attorney Worked for Clinton</a>
+                                            </div>
+                                        </li>
+                                        <li class="flex-xs">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="img/army.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info"><a href="#">Iran Offers More Support for Iraq As It Officially Opens Border with Syria</a></div>
+                                        </li>
+                                        <li class="flex-xs">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="img/invasion.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info"><a href="#">Televangelist Slams Trump for 'Allowing' Christians to Be 'Massacred'</a></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-title">
+                            <a href="/business">Business</a></div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <article>
+                                    <div class="image">
+                                        <a href="#">
+                                            <img src="img/now.png" alt="">
+                                        </a>
+                                    </div>
+                                    <h4>
+                                        <a href="#">Texas Sees Democratic Party Rise as White Liberals Arrive For Great Economy</a>
+                                    </h4>
+                                </article>
+                            </div>
+                            <div class="col-sm-4">
+                                <article>
+                                    <div class="image">
+                                        <a href="#">
+                                            <img src="img/money.png" alt="">
+                                        </a>
+                                    </div>
+                                    <h4>
+                                        <a href="#">Majority of Democrat, Republican Voters Want Tougher Wall Street Regulation</a>
+                                    </h4>
+                                </article>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="feature2 subfeature2">
+                                    <ul>
+                                        <li class="flex-xs">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="img/memo.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info"><a href="#">Trump Impeachment May Rescue Economy By Forcing Trade Deal: Analysts</a></div>
+                                        </li>
+                                        <li class="flex-xs">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="img/someguy.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info">
+                                                <a href="#">Better Than Bitcoin? This Man Has a New Plan to Disrupt the Economy</a>
+                                            </div>
+                                        </li>
+                                        <li class="flex-xs">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="img/amazon.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info"><a href="#">Amazon Workers Protest Company's Off-Time Policies</a></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-title">
+                            <a href="/tech-science">Tech & Science</a></div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <article>
+                                    <div class="image">
+                                        <a href="#">
+                                            <img src="img/mamut.png" alt="">
+                                        </a>
+                                    </div>
+                                    <h4>
+                                        <a href="#">Last of the Woolly Mammoths Died in 'Catastrophic' Event on Wrangel Island</a>
+                                    </h4>
+                                </article>
+                            </div>
+                            <div class="col-sm-4">
+                                <article>
+                                    <div class="image">
+                                        <a href="#">
+                                            <img src="img/rock.png" alt="">
+                                        </a>
+                                    </div>
+                                    <h4>
+                                        <a href="#">Rare Ancient Tomb of Rich Minoan Woman Discovered at Complex in Crete</a>
+                                    </h4>
+                                </article>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="feature2 subfeature2">
+                                    <ul>
+                                        <li class="flex-xs">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="img/ice.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info">
+                                                <a href="#">Sea 'Boiling' with Methane in Siberia is Unlike Anything Seen Before</a>
+                                            </div>
+                                        </li>
+                                        <li class="flex-xs">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="img/march.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info"><a href="#">Activist Wants Federal Ban of Facial Recognition Technology in Russia</a></div>
+                                        </li>
+                                        <li class="flex-xs">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="img/bear.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info"><a href="#">U.S. Research Into Child Gun Deaths Amounts to Just $600 Per Kid Killed</a></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-title">
+                            <a href="/culture">Culture</a></div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <article>
+                                    <div class="image">
+                                        <a href="/mindhunter-season-2-tench-brian-murder-1458968">
+                                            <img src="img/2wedding.png" alt="">
+                                        </a>
+                                    </div>
+                                    <h4>
+                                        <a href="#">Priyanka Chopra Is Making a Movie About Her Own Wedding to Nick Jonas</a>
+                                    </h4>
+                                </article>
+                            </div>
+                            <div class="col-sm-4">
+                                <article>
+                                    <div class="image">
+                                        <a href="#">
+                                            <img src="img/chopra.png" alt="">
+                                        </a>
+                                    </div>
+                                    <h4>
+                                        <a href="#">'The Flash' Season 6 Spoilers: Who Will Be the Main Villains?</a>
+                                    </h4>
+                                </article>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="feature2 subfeature2">
+                                    <ul>
+                                        <li class="flex-xs">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="img/ncsi.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info"><a href="#">'NCIS' Season 17 Spoilers: When Will Ziva Return and Reunite with Tony?</a></div>
+                                        </li>
+                                        <li class="flex-xs">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="img/park.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info"><a href="#">'South Park' Banned in China: What Happened in 'Band in China' Episode?</a></div>
+                                        </li>
+                                        <li class="flex-xs">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="img/guys.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info"><a href="#">'All American' Season 2 Streaming: How to Watch Online and Live Stream</a></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-title">
+                            <a href="/sports">Sports</a></div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <article>
+                                    <div class="image">
+                                        <a href="#">
+                                            <img src="img/footb.png" alt="">
+                                        </a>
+                                    </div>
+                                    <h4>
+                                        <a href="#">When Will Saquon Barkley Return? Giants Star Unlikely to Play vs. Patriots</a>
+                                    </h4>
+                                </article>
+                            </div>
+                            <div class="col-sm-4">
+                                <article>
+                                    <div class="image">
+                                        <a href="#">
+                                            <img src="img/fight.png" alt="">
+                                        </a>
+                                    </div>
+                                    <h4>
+                                        <a href="#">Tyson Fury Brawls With WWE's Braun Strowman on 'Raw'</a>
+                                    </h4>
+                                </article>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="feature2 subfeature2">
+                                    <ul>
+                                        <li class="flex-xs">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="img/casco.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info"><a href="#">Will the Patriots Go Undefeated This Year After Best Start Since 2015?</a></div>
+                                        </li>
+                                        <li class="flex-xs">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="img/games.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info"><a href="#">49ers Playoff Chances: Will San Francisco Emulate 1990 Team?</a></div>
+                                        </li>
+                                        <li class="flex-xs">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="img/teather.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="info"><a href="#">Monday Night RAW Results (10/7)</a></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="fb-root"></div>
+        </div>
+        <div class="subscribe-block">
+            <div class="flex-md row">
+                <div class="col-md-7 col-lg-8 flex-md fd-c">
+                    <div class="block-title red">Subscribe</div>
+                    <div class="col-l f1 flex-sm ai-c">
+                        <div class="fn image">
+                            <div class="mag-thumb prev">
+                                <img src="img/octo.jpg" alt=""></div>
+                            <div class="mag-thumb current">
+                                <img src="img/october.jpg" alt=""></div>
+                        </div>
+                        <div class="f1 info">
+                            <h3>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
+                            <p>All Access + Weekly Delivery.
+                                <br>Choose A Membership That's Perfect for You!</p>
+                            <a href="https://subscription.newsweek.com/subscribe?utm_source=NWwebsite&utm_medium=bottom-page&utm_campaign=subscribe-button" target="_blank"><span
+class="lk red">Subscribe</span></a></div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-4 flex-md fd-c">
+                    <div class="block-title red">NEWSLETTER</div>
+                    <div class="col-r f1 flex-sm">
+                        <div class="fn image lazyload foto"></div>
+                        <div class="f1 info">
+                            <h3>Daily Briefing</h3>
+                            <p>Take back your inbox. Sign up for our newsletter and start making sense of the world around you.</p>
+                            <a href="https://email.newsweek.com/landing/newsletter?utm_source=NWwebsite&utm_medium=Bottom&utm_campaign=DailyBriefing" target="_blank"><span
+class="lk red">Sign Up</span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="page-bottom">
+            <div id="fb-root"></div>
+        </div>
+        <div id="block-ibtg-footer-ibtg-footer" class="block block-ibtg-footer" data-gtm-action="Footer_Link">
+            <div class="content">
+                <footer class="page-footer container-fluid">
+                    <div class="flex-sm jc-sb ai-fe">
+                        <div class="flex-sm ai-fe">
+                            <a class="brand" href="/">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+                                    <g>
+                                        <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7" />
+                                    </g>
+                                </svg>
+                            </a>
+                            <p class="copyright">&copy; 2019 Newsweek</p>
+                        </div>
+                        <ul class="social flex-xs ai-fe">
+                            <li>
+                                <a class="genericon genericon-facebook" href="https://www.facebook.com/Newsweek" target="_blank"></a>
+                            </li>
+                            <li>
+                                <a class="genericon genericon-twitter" href="https://twitter.com/Newsweek" target="_blank"></a>
+                            </li>
+                            <li>
+                                <a class="genericon genericon-instagram" href="https://instagram.com/newsweek/" rel="nofollow" target="_blank"></a>
+                            </li>
+                            <li>
+                                <a class="genericon genericon-tumblr" href="https://newsweekscience.tumblr.com/" rel="nofollow" target="_blank"></a>
+                            </li>
+                            <li>
+                                <a class="genericon genericon-linkedin" href="https://www.linkedin.com/company/newsweek" rel="nofollow" target="_blank"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <div class="row">
+                            <div class="footer-links-menu col-md-7">
+                                <ul class="menu">
+                                    <li class="first leaf"><a href="/about-newsweek">About Us</a></li>
+                                    <li class="leaf"><a href="/corrections">Corrections</a></li>
+                                    <li class="leaf"><a href="/contact">Contact Us</a></li>
+                                    <li class="leaf"><a href="/editorial-guidelines">Editorial Guidelines</a></li>
+                                    <li class="leaf"><a href="/advertise">Advertise</a></li>
+                                    <li class="leaf"><a href="/copyright">Copyright</a></li>
+                                    <li class="leaf"><a href="/terms-service">Terms & Conditions</a></li>
+                                    <li class="leaf"><a href="/privacy-policy">Privacy Policy</a></li>
+                                    <li class="leaf"><a href="/cookie-policy">Cookie Policy</a></li>
+                                    <li class="leaf"><a href="/terms-sale">Terms of Sale</a></li>
+                                    <li class="leaf"><a href="/archive">Archive</a></li>
+                                    <li class="last leaf"><a href="/announcements">Announcements</a></li>
+                                </ul>
+                                <a href="javascript:Didomi.preferences.show()" class="change-consent">Consent preferences</a></div>
+                            <div class="footer-links-edition col-md-4 col-md-offset-1 flex-xs">
+                                <label style="margin-top:6px;margin-right:15px"><strong>Editions:</strong></label>
+                                <ul class="menu">
+                                    <li class="first leaf"><a href="https://www.newsweek.com/">U.S. Edition</a></li>
+                                    <li class="leaf"><a href="https://www.newsweekjapan.jp/">日本</a></li>
+                                    <li class="leaf"><a href="http://newsweekkorea.com/">한국</a></li>
+                                    <li class="leaf"><a href="http://newsweekpakistan.com/">Pakistan</a></li>
+                                    <li class="leaf"><a href="https://www.newsweek.pl/">Polska</a></li>
+                                    <li class="leaf"><a href="https://newsweek.ro/">România</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        
 </body>
 </html>

@@ -1,0 +1,10 @@
+linters:
+  stylelint:
+    config: 'stylelint.config.js'
+
+files:
+    # Ignore the files that match these glob patterns.
+    # Be careful to quote strings as `*` has special
+    # meaning in YAML files.
+    ignore:
+        - 'reset.css'
