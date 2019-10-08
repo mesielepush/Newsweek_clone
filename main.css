@@ -1,4 +1,6 @@
-
+.foto {
+    background: url('../Newsweek_clone/img/apage.png') center;
+  }
 .lazyload {
     visibility: hidden;
 }
